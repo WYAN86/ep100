@@ -1,0 +1,1553 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.20.0.52543/W32 for ARM              25/Dec/2012  21:28:09 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Exe\STM3210E-EVAL.out                        #
+#    Map file     =  E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\List\STM3210E-EVAL.map                       #
+#    Command line =  E:\伺服电机\源程序\2.6.6\2.6\Libraries\PMSM\IQmathLib.a  #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\24cxx.o E:\伺服电机\源程序\2.6.6\2.6\Pro #
+#                    ject\Template\EWARMv5\STM3210E-EVAL\Obj\adc.o            #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\angle.o E:\伺服电机\源程序\2.6.6\2.6\Pro #
+#                    ject\Template\EWARMv5\STM3210E-EVAL\Obj\clarke.o         #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\cmd.o E:\伺服电机\源程序\2.6.6\2.6\Proje #
+#                    ct\Template\EWARMv5\STM3210E-EVAL\Obj\core_cm3.o         #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\curve.o E:\伺服电机\源程序\2.6.6\2.6\Pro #
+#                    ject\Template\EWARMv5\STM3210E-EVAL\Obj\delay.o          #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\encoder.o E:\伺服电机\源程序\2.6.6\2.6\P #
+#                    roject\Template\EWARMv5\STM3210E-EVAL\Obj\error.o        #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\id.o E:\伺服电机\源程序\2.6.6\2.6\Projec #
+#                    t\Template\EWARMv5\STM3210E-EVAL\Obj\ipark.o             #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\led_key.o E:\伺服电机\源程序\2.6.6\2.6\P #
+#                    roject\Template\EWARMv5\STM3210E-EVAL\Obj\low_filter.o   #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\main.o E:\伺服电机\源程序\2.6.6\2.6\Proj #
+#                    ect\Template\EWARMv5\STM3210E-EVAL\Obj\menu.o            #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\misc.o E:\伺服电机\源程序\2.6.6\2.6\Proj #
+#                    ect\Template\EWARMv5\STM3210E-EVAL\Obj\motor_parameter.o #
+#                     E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\S #
+#                    TM3210E-EVAL\Obj\myiic.o E:\伺服电机\源程序\2.6.6\2.6\Pr #
+#                    oject\Template\EWARMv5\STM3210E-EVAL\Obj\nvic_conf.o     #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\over_modu.o                              #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\parameter.o                              #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\park.o E:\伺服电机\源程序\2.6.6\2.6\Proj #
+#                    ect\Template\EWARMv5\STM3210E-EVAL\Obj\pid.o             #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\rampctrl.o E:\伺服电机\源程序\2.6.6\2.6\ #
+#                    Project\Template\EWARMv5\STM3210E-EVAL\Obj\rampgen.o     #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\rcc_conf.o E:\伺服电机\源程序\2.6.6\2.6\ #
+#                    Project\Template\EWARMv5\STM3210E-EVAL\Obj\safe.o        #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\speed.o E:\伺服电机\源程序\2.6.6\2.6\Pro #
+#                    ject\Template\EWARMv5\STM3210E-EVAL\Obj\startup_stm32f10 #
+#                    x_hd.o E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWA #
+#                    RMv5\STM3210E-EVAL\Obj\stm32f10x_adc.o                   #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_dac.o                          #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_exti.o                         #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_flash.o                        #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_gpio.o                         #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_it.o                           #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_pwr.o                          #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_rcc.o                          #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\stm32f10x_tim.o                          #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\svpwm.o E:\伺服电机\源程序\2.6.6\2.6\Pro #
+#                    ject\Template\EWARMv5\STM3210E-EVAL\Obj\system_parameter #
+#                    .o E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5 #
+#                    \STM3210E-EVAL\Obj\system_stm32f10x.o                    #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\ST #
+#                    M3210E-EVAL\Obj\tim8.o E:\伺服电机\源程序\2.6.6\2.6\Proj #
+#                    ect\Template\EWARMv5\STM3210E-EVAL\Obj\viewer.o          #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull -o E:\伺服电机\源程序\2.6.6\2.6\Projec #
+#                    t\Template\EWARMv5\STM3210E-EVAL\Exe\STM3210E-EVAL.out   #
+#                    --map E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWAR #
+#                    Mv5\STM3210E-EVAL\List\STM3210E-EVAL.map --config        #
+#                    E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\st #
+#                    m32f10x_flash.icf --semihosting --entry                  #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section                Kind        Address     Size  Object
+  -------                ----        -------     ----  ------
+"A1":                                           0x130
+  .intvec                ro code  0x08000000    0x130  startup_stm32f10x_hd.o [1]
+                                - 0x08000130    0x130
+
+"P1":                                         0x13350
+  .text                  ro code  0x08000130   0x2a90  menu.o [1]
+  .text                  ro code  0x08002bc0    0x16c  led_key.o [1]
+  .text                  ro code  0x08002d2c    0xa4c  system_parameter.o [1]
+  .text                  ro code  0x08003778    0x2ec  cmd.o [1]
+  .text                  ro code  0x08003a64     0xa4  parameter.o [1]
+  .text                  ro code  0x08003b08    0x152  angle.o [1]
+  .text                  ro code  0x08003c5a     0x22  zero_init3.o [6]
+  .text                  ro code  0x08003c7c    0x328  24cxx.o [1]
+  .text                  ro code  0x08003fa4      0xa  stm32f10x_it.o [1]
+  .text                  ro code  0x08003fb0     0x2e  I32ToDbl.o [5]
+  .text                  ro code  0x08003fe0    0x1a2  DblMul.o [5]
+  .text                  ro code  0x08004184     0xe6  DblAdd.o [5]
+  .text                  ro code  0x0800426c     0x2e  DblCmpGe.o [5]
+  .text                  ro code  0x0800429c    0x246  DblDiv.o [5]
+  .text                  ro code  0x080044e4     0x56  DblToI32.o [5]
+  .text                  ro code  0x0800453c    0x17e  DblSub.o [5]
+  .text                  ro code  0x080046bc     0x30  I32ToFlt.o [5]
+  .text                  ro code  0x080046ec     0xd8  FltMul.o [5]
+  .text                  ro code  0x080047c4     0x44  FltToS32.o [5]
+  .text                  ro code  0x08004808    0x23c  stm32f10x_gpio.o [1]
+  .text                  ro code  0x08004a44     0x52  delay.o [1]
+  .text                  ro code  0x08004a98     0x90  DblToFlt.o [5]
+  .text                  ro code  0x08004b28     0xfc  FltDiv.o [5]
+  .text                  ro code  0x08004c24     0x4e  FltToDbl.o [5]
+  .text                  ro code  0x08004c72     0x42  low_filter.o [1]
+  .text                  ro code  0x08004cb4    0x224  stm32f10x_rcc.o [1]
+  .text                  ro code  0x08004ed8    0x650  stm32f10x_tim.o [1]
+  .text                  ro code  0x08005528    0x298  myiic.o [1]
+  _IQ24div               ro code  0x080057c0     0x90  IQNdiv.o [3]
+  _IQ24mpy               ro code  0x08005850     0x10  IQNmpy.o [3]
+  .text                  ro code  0x08005860   0x1946  stm32f10x_it.o [1]
+  .text                  ro code  0x080071a8    0x1e0  encoder.o [1]
+  .text                  ro code  0x08007388    0x2d4  adc.o [1]
+  .text                  ro code  0x0800765c     0x88  speed.o [1]
+  .text                  ro code  0x080076e4   0x118c  safe.o [1]
+  .text                  ro code  0x08008870     0x66  rampgen.o [1]
+  .text                  ro code  0x080088d8     0x20  clarke.o [1]
+  .text                  ro code  0x080088f8     0x42  park.o [1]
+  .text                  ro code  0x0800893a     0x60  pid.o [1]
+  .text                  ro code  0x0800899a     0x42  ipark.o [1]
+  .text                  ro code  0x080089dc    0x2e4  svpwm.o [1]
+  .text                  ro code  0x08008cc0    0x270  tim8.o [1]
+  _IQ20div               ro code  0x08008f30     0x90  IQNdiv.o [3]
+  .text                  ro code  0x08008fc0     0x92  rampctrl.o [1]
+  .text                  ro code  0x08009054     0x9c  stm32f10x_exti.o [1]
+  .text                  ro code  0x080090f0     0x9c  misc.o [1]
+  .text                  ro code  0x0800918c    0x2a6  stm32f10x_adc.o [1]
+  .text                  ro code  0x08009434    0x3a8  error.o [1]
+  _IQ24sinPU             ro code  0x080097dc     0x7c  IQNsinPU.o [3]
+  _IQ24cosPU             ro code  0x08009858     0x80  IQNcosPU.o [3]
+  asin_table_polynomial  ro code  0x080098d8   0x1800  IQtables.o [3]
+  atan2PU_table          ro code  0x0800b0d8    0xc00  IQtables.o [3]
+  sincos_table           ro code  0x0800bcd8    0x804  IQtables.o [3]
+  div_table              ro code  0x0800c4dc    0x800  IQtables.o [3]
+  isqrt_table            ro code  0x0800ccdc    0x800  IQtables.o [3]
+  .rodata                const    0x0800d4dc    0x360  motor_parameter.o [1]
+  asin_table_flat        ro code  0x0800d83c     0xfc  IQtables.o [3]
+  _IQ29cos               ro code  0x0800d938     0xc8  IQNcos.o [3]
+  _IQ29sin               ro code  0x0800da00     0xc4  IQNsin.o [3]
+  _IQ21cos               ro code  0x0800dac4     0xb8  IQNcos.o [3]
+  _IQ22cos               ro code  0x0800db7c     0xb8  IQNcos.o [3]
+  _IQ23cos               ro code  0x0800dc34     0xb8  IQNcos.o [3]
+  _IQ24cos               ro code  0x0800dcec     0xb8  IQNcos.o [3]
+  _IQ25cos               ro code  0x0800dda4     0xb8  IQNcos.o [3]
+  _IQ26cos               ro code  0x0800de5c     0xb8  IQNcos.o [3]
+  _IQ27cos               ro code  0x0800df14     0xb8  IQNcos.o [3]
+  _IQ28cos               ro code  0x0800dfcc     0xb8  IQNcos.o [3]
+  .text                  ro code  0x0800e084     0xb4  rcc_conf.o [1]
+  .text                  ro code  0x0800e138     0x3c  stm32f10x_flash.o [1]
+  _IQ21sin               ro code  0x0800e174     0xb4  IQNsin.o [3]
+  _IQ22sin               ro code  0x0800e228     0xb4  IQNsin.o [3]
+  _IQ23sin               ro code  0x0800e2dc     0xb4  IQNsin.o [3]
+  _IQ24sin               ro code  0x0800e390     0xb4  IQNsin.o [3]
+  _IQ25sin               ro code  0x0800e444     0xb4  IQNsin.o [3]
+  _IQ26sin               ro code  0x0800e4f8     0xb4  IQNsin.o [3]
+  _IQ27sin               ro code  0x0800e5ac     0xb4  IQNsin.o [3]
+  _IQ28sin               ro code  0x0800e660     0xb4  IQNsin.o [3]
+  _IQ29cosPU             ro code  0x0800e714     0xa8  IQNcosPU.o [3]
+  _IQ29sinPU             ro code  0x0800e7bc     0xa4  IQNsinPU.o [3]
+  _IQ30cosPU             ro code  0x0800e860     0xa4  IQNcosPU.o [3]
+  .text                  ro code  0x0800e904     0xa2  packbits_init3.o [6]
+  .rodata                const    0x0800e9a8     0xa0  parameter.o [1]
+  _IQ30sinPU             ro code  0x0800ea48     0xa0  IQNsinPU.o [3]
+  .text                  ro code  0x0800eae8     0x94  main.o [1]
+  .text                  ro code  0x0800eb7c     0x16  nvic_conf.o [1]
+  .text                  ro code  0x0800eb94     0x2c  curve.o [1]
+  .text                  ro code  0x0800ebc0     0x70  id.o [1]
+  _IQ10div               ro code  0x0800ec30     0x90  IQNdiv.o [3]
+  _IQ11div               ro code  0x0800ecc0     0x90  IQNdiv.o [3]
+  _IQ12div               ro code  0x0800ed50     0x90  IQNdiv.o [3]
+  _IQ13div               ro code  0x0800ede0     0x90  IQNdiv.o [3]
+  _IQ14div               ro code  0x0800ee70     0x90  IQNdiv.o [3]
+  _IQ15div               ro code  0x0800ef00     0x90  IQNdiv.o [3]
+  _IQ16div               ro code  0x0800ef90     0x90  IQNdiv.o [3]
+  _IQ17div               ro code  0x0800f020     0x90  IQNdiv.o [3]
+  _IQ18div               ro code  0x0800f0b0     0x90  IQNdiv.o [3]
+  _IQ19div               ro code  0x0800f140     0x90  IQNdiv.o [3]
+  _IQ1div                ro code  0x0800f1d0     0x90  IQNdiv.o [3]
+  _IQ21div               ro code  0x0800f260     0x90  IQNdiv.o [3]
+  _IQ22div               ro code  0x0800f2f0     0x90  IQNdiv.o [3]
+  _IQ23div               ro code  0x0800f380     0x90  IQNdiv.o [3]
+  _IQ25div               ro code  0x0800f410     0x90  IQNdiv.o [3]
+  _IQ26div               ro code  0x0800f4a0     0x90  IQNdiv.o [3]
+  _IQ27div               ro code  0x0800f530     0x90  IQNdiv.o [3]
+  _IQ28cosPU             ro code  0x0800f5c0     0x90  IQNcosPU.o [3]
+  _IQ28div               ro code  0x0800f650     0x90  IQNdiv.o [3]
+  _IQ29div               ro code  0x0800f6e0     0x90  IQNdiv.o [3]
+  _IQ2div                ro code  0x0800f770     0x90  IQNdiv.o [3]
+  _IQ30div               ro code  0x0800f800     0x90  IQNdiv.o [3]
+  _IQ3div                ro code  0x0800f890     0x90  IQNdiv.o [3]
+  _IQ4div                ro code  0x0800f920     0x90  IQNdiv.o [3]
+  _IQ5div                ro code  0x0800f9b0     0x90  IQNdiv.o [3]
+  _IQ6div                ro code  0x0800fa40     0x90  IQNdiv.o [3]
+  _IQ7div                ro code  0x0800fad0     0x90  IQNdiv.o [3]
+  _IQ8div                ro code  0x0800fb60     0x90  IQNdiv.o [3]
+  _IQ9div                ro code  0x0800fbf0     0x90  IQNdiv.o [3]
+  _IQ10cos               ro code  0x0800fc80     0x8c  IQNcos.o [3]
+  _IQ11cos               ro code  0x0800fd0c     0x8c  IQNcos.o [3]
+  _IQ12cos               ro code  0x0800fd98     0x8c  IQNcos.o [3]
+  _IQ13cos               ro code  0x0800fe24     0x8c  IQNcos.o [3]
+  _IQ14cos               ro code  0x0800feb0     0x8c  IQNcos.o [3]
+  _IQ15cos               ro code  0x0800ff3c     0x8c  IQNcos.o [3]
+  _IQ16cos               ro code  0x0800ffc8     0x8c  IQNcos.o [3]
+  _IQ17cos               ro code  0x08010054     0x8c  IQNcos.o [3]
+  _IQ18cos               ro code  0x080100e0     0x8c  IQNcos.o [3]
+  _IQ19cos               ro code  0x0801016c     0x8c  IQNcos.o [3]
+  _IQ20cos               ro code  0x080101f8     0x8c  IQNcos.o [3]
+  _IQ28sinPU             ro code  0x08010284     0x8c  IQNsinPU.o [3]
+  _IQ9cos                ro code  0x08010310     0x8c  IQNcos.o [3]
+  _IQ10sin               ro code  0x0801039c     0x88  IQNsin.o [3]
+  _IQ11sin               ro code  0x08010424     0x88  IQNsin.o [3]
+  _IQ12sin               ro code  0x080104ac     0x88  IQNsin.o [3]
+  _IQ13sin               ro code  0x08010534     0x88  IQNsin.o [3]
+  _IQ14sin               ro code  0x080105bc     0x88  IQNsin.o [3]
+  _IQ15sin               ro code  0x08010644     0x88  IQNsin.o [3]
+  _IQ16sin               ro code  0x080106cc     0x88  IQNsin.o [3]
+  _IQ17sin               ro code  0x08010754     0x88  IQNsin.o [3]
+  _IQ18sin               ro code  0x080107dc     0x88  IQNsin.o [3]
+  _IQ19sin               ro code  0x08010864     0x88  IQNsin.o [3]
+  _IQ20sin               ro code  0x080108ec     0x88  IQNsin.o [3]
+  _IQ9sin                ro code  0x08010974     0x88  IQNsin.o [3]
+  _IQ12cosPU             ro code  0x080109fc     0x80  IQNcosPU.o [3]
+  _IQ13cosPU             ro code  0x08010a7c     0x80  IQNcosPU.o [3]
+  _IQ14cosPU             ro code  0x08010afc     0x80  IQNcosPU.o [3]
+  _IQ15cosPU             ro code  0x08010b7c     0x80  IQNcosPU.o [3]
+  _IQ16cosPU             ro code  0x08010bfc     0x80  IQNcosPU.o [3]
+  _IQ17cosPU             ro code  0x08010c7c     0x80  IQNcosPU.o [3]
+  _IQ18cosPU             ro code  0x08010cfc     0x80  IQNcosPU.o [3]
+  _IQ19cosPU             ro code  0x08010d7c     0x80  IQNcosPU.o [3]
+  _IQ20cosPU             ro code  0x08010dfc     0x80  IQNcosPU.o [3]
+  _IQ21cosPU             ro code  0x08010e7c     0x80  IQNcosPU.o [3]
+  _IQ22cosPU             ro code  0x08010efc     0x80  IQNcosPU.o [3]
+  _IQ23cosPU             ro code  0x08010f7c     0x80  IQNcosPU.o [3]
+  _IQ25cosPU             ro code  0x08010ffc     0x80  IQNcosPU.o [3]
+  _IQ26cosPU             ro code  0x0801107c     0x80  IQNcosPU.o [3]
+  _IQ27cosPU             ro code  0x080110fc     0x80  IQNcosPU.o [3]
+  _IQ12sinPU             ro code  0x0801117c     0x7c  IQNsinPU.o [3]
+  _IQ13sinPU             ro code  0x080111f8     0x7c  IQNsinPU.o [3]
+  _IQ14sinPU             ro code  0x08011274     0x7c  IQNsinPU.o [3]
+  _IQ15sinPU             ro code  0x080112f0     0x7c  IQNsinPU.o [3]
+  _IQ16sinPU             ro code  0x0801136c     0x7c  IQNsinPU.o [3]
+  _IQ17sinPU             ro code  0x080113e8     0x7c  IQNsinPU.o [3]
+  _IQ18sinPU             ro code  0x08011464     0x7c  IQNsinPU.o [3]
+  _IQ19sinPU             ro code  0x080114e0     0x7c  IQNsinPU.o [3]
+  _IQ20sinPU             ro code  0x0801155c     0x7c  IQNsinPU.o [3]
+  _IQ21sinPU             ro code  0x080115d8     0x7c  IQNsinPU.o [3]
+  _IQ22sinPU             ro code  0x08011654     0x7c  IQNsinPU.o [3]
+  _IQ23sinPU             ro code  0x080116d0     0x7c  IQNsinPU.o [3]
+  _IQ25sinPU             ro code  0x0801174c     0x7c  IQNsinPU.o [3]
+  _IQ26sinPU             ro code  0x080117c8     0x7c  IQNsinPU.o [3]
+  _IQ27sinPU             ro code  0x08011844     0x7c  IQNsinPU.o [3]
+  _IQ11cosPU             ro code  0x080118c0     0x74  IQNcosPU.o [3]
+  _IQ11sinPU             ro code  0x08011934     0x70  IQNsinPU.o [3]
+  _IQ10sqrt              ro code  0x080119a4     0x6c  IQNsqrt.o [3]
+  _IQ11sqrt              ro code  0x08011a10     0x6c  IQNsqrt.o [3]
+  _IQ12sqrt              ro code  0x08011a7c     0x6c  IQNsqrt.o [3]
+  _IQ13sqrt              ro code  0x08011ae8     0x6c  IQNsqrt.o [3]
+  _IQ14sqrt              ro code  0x08011b54     0x6c  IQNsqrt.o [3]
+  _IQ15sqrt              ro code  0x08011bc0     0x6c  IQNsqrt.o [3]
+  _IQ16sqrt              ro code  0x08011c2c     0x6c  IQNsqrt.o [3]
+  _IQ17sqrt              ro code  0x08011c98     0x6c  IQNsqrt.o [3]
+  _IQ18sqrt              ro code  0x08011d04     0x6c  IQNsqrt.o [3]
+  _IQ19sqrt              ro code  0x08011d70     0x6c  IQNsqrt.o [3]
+  _IQ1sqrt               ro code  0x08011ddc     0x6c  IQNsqrt.o [3]
+  _IQ20sqrt              ro code  0x08011e48     0x6c  IQNsqrt.o [3]
+  _IQ21sqrt              ro code  0x08011eb4     0x6c  IQNsqrt.o [3]
+  _IQ22sqrt              ro code  0x08011f20     0x6c  IQNsqrt.o [3]
+  _IQ23sqrt              ro code  0x08011f8c     0x6c  IQNsqrt.o [3]
+  _IQ24sqrt              ro code  0x08011ff8     0x6c  IQNsqrt.o [3]
+  _IQ25sqrt              ro code  0x08012064     0x6c  IQNsqrt.o [3]
+  _IQ26sqrt              ro code  0x080120d0     0x6c  IQNsqrt.o [3]
+  _IQ27sqrt              ro code  0x0801213c     0x6c  IQNsqrt.o [3]
+  _IQ28sqrt              ro code  0x080121a8     0x6c  IQNsqrt.o [3]
+  _IQ29sqrt              ro code  0x08012214     0x6c  IQNsqrt.o [3]
+  _IQ2sqrt               ro code  0x08012280     0x6c  IQNsqrt.o [3]
+  _IQ30sqrt              ro code  0x080122ec     0x6c  IQNsqrt.o [3]
+  _IQ3sqrt               ro code  0x08012358     0x6c  IQNsqrt.o [3]
+  _IQ4sqrt               ro code  0x080123c4     0x6c  IQNsqrt.o [3]
+  _IQ5sqrt               ro code  0x08012430     0x6c  IQNsqrt.o [3]
+  _IQ6sqrt               ro code  0x0801249c     0x6c  IQNsqrt.o [3]
+  _IQ7sqrt               ro code  0x08012508     0x6c  IQNsqrt.o [3]
+  _IQ8sqrt               ro code  0x08012574     0x6c  IQNsqrt.o [3]
+  _IQ9sqrt               ro code  0x080125e0     0x6c  IQNsqrt.o [3]
+  _IQ1cos                ro code  0x0801264c     0x40  IQNcos.o [3]
+  _IQ2cos                ro code  0x0801268c     0x40  IQNcos.o [3]
+  _IQ3cos                ro code  0x080126cc     0x40  IQNcos.o [3]
+  _IQ4cos                ro code  0x0801270c     0x40  IQNcos.o [3]
+  _IQ5cos                ro code  0x0801274c     0x40  IQNcos.o [3]
+  _IQ6cos                ro code  0x0801278c     0x40  IQNcos.o [3]
+  _IQ7cos                ro code  0x080127cc     0x40  IQNcos.o [3]
+  _IQ8cos                ro code  0x0801280c     0x40  IQNcos.o [3]
+  _IQ1sin                ro code  0x0801284c     0x3c  IQNsin.o [3]
+  _IQ2sin                ro code  0x08012888     0x3c  IQNsin.o [3]
+  _IQ3sin                ro code  0x080128c4     0x3c  IQNsin.o [3]
+  _IQ4sin                ro code  0x08012900     0x3c  IQNsin.o [3]
+  _IQ5sin                ro code  0x0801293c     0x3c  IQNsin.o [3]
+  _IQ6sin                ro code  0x08012978     0x3c  IQNsin.o [3]
+  _IQ7sin                ro code  0x080129b4     0x3c  IQNsin.o [3]
+  _IQ8sin                ro code  0x080129f0     0x3c  IQNsin.o [3]
+  _IQ10cosPU             ro code  0x08012a2c     0x30  IQNcosPU.o [3]
+  _IQ1cosPU              ro code  0x08012a5c     0x30  IQNcosPU.o [3]
+  _IQ2cosPU              ro code  0x08012a8c     0x30  IQNcosPU.o [3]
+  _IQ3cosPU              ro code  0x08012abc     0x30  IQNcosPU.o [3]
+  _IQ4cosPU              ro code  0x08012aec     0x30  IQNcosPU.o [3]
+  _IQ5cosPU              ro code  0x08012b1c     0x30  IQNcosPU.o [3]
+  _IQ6cosPU              ro code  0x08012b4c     0x30  IQNcosPU.o [3]
+  _IQ7cosPU              ro code  0x08012b7c     0x30  IQNcosPU.o [3]
+  _IQ8cosPU              ro code  0x08012bac     0x30  IQNcosPU.o [3]
+  _IQ9cosPU              ro code  0x08012bdc     0x30  IQNcosPU.o [3]
+  _IQ10sinPU             ro code  0x08012c0c     0x2c  IQNsinPU.o [3]
+  _IQ1sinPU              ro code  0x08012c38     0x2c  IQNsinPU.o [3]
+  _IQ2sinPU              ro code  0x08012c64     0x2c  IQNsinPU.o [3]
+  _IQ3sinPU              ro code  0x08012c90     0x2c  IQNsinPU.o [3]
+  _IQ4sinPU              ro code  0x08012cbc     0x2c  IQNsinPU.o [3]
+  _IQ5sinPU              ro code  0x08012ce8     0x2c  IQNsinPU.o [3]
+  _IQ6sinPU              ro code  0x08012d14     0x2c  IQNsinPU.o [3]
+  _IQ7sinPU              ro code  0x08012d40     0x2c  IQNsinPU.o [3]
+  _IQ8sinPU              ro code  0x08012d6c     0x2c  IQNsinPU.o [3]
+  _IQ9sinPU              ro code  0x08012d98     0x2c  IQNsinPU.o [3]
+  .text                  ro code  0x08012dc4     0x2c  data_init3.o [6]
+  .iar.init_table        const    0x08012df0     0x2c  - Linker created -
+  .text                  ro code  0x08012e1c     0x1c  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08012e38     0x16  cmain.o [6]
+  .text                  ro code  0x08012e4e      0x8  exit.o [4]
+  .text                  ro code  0x08012e58      0xa  cexit.o [6]
+  .text                  ro code  0x08012e64     0x14  exit.o [7]
+  _IQ10mpy               ro code  0x08012e78     0x10  IQNmpy.o [3]
+  _IQ11mpy               ro code  0x08012e88     0x10  IQNmpy.o [3]
+  _IQ12mpy               ro code  0x08012e98     0x10  IQNmpy.o [3]
+  _IQ13mpy               ro code  0x08012ea8     0x10  IQNmpy.o [3]
+  _IQ14mpy               ro code  0x08012eb8     0x10  IQNmpy.o [3]
+  _IQ15mpy               ro code  0x08012ec8     0x10  IQNmpy.o [3]
+  _IQ16mpy               ro code  0x08012ed8     0x10  IQNmpy.o [3]
+  _IQ17mpy               ro code  0x08012ee8     0x10  IQNmpy.o [3]
+  _IQ18mpy               ro code  0x08012ef8     0x10  IQNmpy.o [3]
+  _IQ19mpy               ro code  0x08012f08     0x10  IQNmpy.o [3]
+  _IQ1mpy                ro code  0x08012f18     0x10  IQNmpy.o [3]
+  _IQ20mpy               ro code  0x08012f28     0x10  IQNmpy.o [3]
+  _IQ21mpy               ro code  0x08012f38     0x10  IQNmpy.o [3]
+  _IQ22mpy               ro code  0x08012f48     0x10  IQNmpy.o [3]
+  _IQ23mpy               ro code  0x08012f58     0x10  IQNmpy.o [3]
+  _IQ25mpy               ro code  0x08012f68     0x10  IQNmpy.o [3]
+  _IQ26mpy               ro code  0x08012f78     0x10  IQNmpy.o [3]
+  _IQ27mpy               ro code  0x08012f88     0x10  IQNmpy.o [3]
+  _IQ28mpy               ro code  0x08012f98     0x10  IQNmpy.o [3]
+  _IQ29mpy               ro code  0x08012fa8     0x10  IQNmpy.o [3]
+  _IQ2mpy                ro code  0x08012fb8     0x10  IQNmpy.o [3]
+  _IQ30mpy               ro code  0x08012fc8     0x10  IQNmpy.o [3]
+  _IQ3mpy                ro code  0x08012fd8     0x10  IQNmpy.o [3]
+  _IQ4mpy                ro code  0x08012fe8     0x10  IQNmpy.o [3]
+  _IQ5mpy                ro code  0x08012ff8     0x10  IQNmpy.o [3]
+  _IQ6mpy                ro code  0x08013008     0x10  IQNmpy.o [3]
+  _IQ7mpy                ro code  0x08013018     0x10  IQNmpy.o [3]
+  _IQ8mpy                ro code  0x08013028     0x10  IQNmpy.o [3]
+  _IQ9mpy                ro code  0x08013038     0x10  IQNmpy.o [3]
+  .text                  ro code  0x08013048      0xc  cstartup_M.o [6]
+  .text                  ro code  0x08013054      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013058      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801305c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013060      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013064      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013068      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801306c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013070      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013074      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013078      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801307c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013080      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013084      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013088      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801308c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013090      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013094      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013098      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801309c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130a0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130a4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130a8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130ac      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130b0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130b4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130b8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130bc      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130c0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130c4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130c8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130cc      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130d0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130d4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130d8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130dc      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130e0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130e4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130e8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130ec      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130f0      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130f4      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130f8      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x080130fc      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013100      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013104      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013108      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801310c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013110      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013114      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013118      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801311c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013120      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013124      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013128      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801312c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013130      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013134      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013138      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801313c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013140      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013144      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013148      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801314c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013150      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013154      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013158      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x0801315c      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013160      0x4  startup_stm32f10x_hd.o [1]
+  .text                  ro code  0x08013164      0x4  startup_stm32f10x_hd.o [1]
+  .rodata                const    0x08013168      0x0  bwt_init3c.o [6]
+  Initializer bytes      ro data  0x08013168    0x316  <for P2 s0>
+                                - 0x0801347e  0x1334e
+
+"P2", part 1 of 3:                              0x3a8
+  P2 s0                           0x20000000    0x3a6  <Init block>
+    .data                inited   0x20000000     0xa0  parameter.o [1]
+    .data                inited   0x200000a0     0xa0  parameter.o [1]
+    .data                inited   0x20000140     0xa0  parameter.o [1]
+    .data                inited   0x200001e0     0xa0  parameter.o [1]
+    .data                inited   0x20000280     0x80  menu.o [1]
+    .data                inited   0x20000300     0x30  menu.o [1]
+    .data                inited   0x20000330     0x20  menu.o [1]
+    .data                inited   0x20000350     0x18  rampgen.o [1]
+    .data                inited   0x20000368      0xc  menu.o [1]
+    .data                inited   0x20000374      0x8  menu.o [1]
+    .data                inited   0x2000037c      0x8  menu.o [1]
+    .data                inited   0x20000384      0x8  menu.o [1]
+    .data                inited   0x2000038c      0x8  menu.o [1]
+    .data                inited   0x20000394      0x8  menu.o [1]
+    .data                inited   0x2000039c      0x8  menu.o [1]
+    .data                inited   0x200003a4      0x1  menu.o [1]
+    .data                inited   0x200003a5      0x1  menu.o [1]
+                                - 0x200003a6    0x3a6
+
+"P2", part 2 of 3:                              0x608
+  .bss                   zero     0x200003a8     0xa0  menu.o [1]
+  .bss                   zero     0x20000448     0x44  pid.o [1]
+  .bss                   zero     0x2000048c     0x44  pid.o [1]
+  .bss                   zero     0x200004d0     0x44  pid.o [1]
+  .bss                   zero     0x20000514     0x44  pid.o [1]
+  .bss                   zero     0x20000558     0x44  pid.o [1]
+  .bss                   zero     0x2000059c     0x3c  pid.o [1]
+  .bss                   zero     0x200005d8     0x2c  angle.o [1]
+  .bss                   zero     0x20000604     0x2c  safe.o [1]
+  .bss                   zero     0x20000630     0x28  adc.o [1]
+  .bss                   zero     0x20000658     0x28  rampctrl.o [1]
+  .bss                   zero     0x20000680     0x20  curve.o [1]
+  .bss                   zero     0x200006a0     0x1c  low_filter.o [1]
+  .bss                   zero     0x200006bc     0x1c  low_filter.o [1]
+  .bss                   zero     0x200006d8     0x1c  low_filter.o [1]
+  .bss                   zero     0x200006f4     0x1c  low_filter.o [1]
+  .bss                   zero     0x20000710     0x1c  low_filter.o [1]
+  .bss                   zero     0x2000072c     0x1c  low_filter.o [1]
+  .bss                   zero     0x20000748     0x1c  low_filter.o [1]
+  .bss                   zero     0x20000764     0x18  id.o [1]
+  .bss                   zero     0x2000077c     0x18  speed.o [1]
+  .bss                   zero     0x20000794     0x14  error.o [1]
+  .bss                   zero     0x200007a8     0x14  ipark.o [1]
+  .bss                   zero     0x200007bc     0x14  park.o [1]
+  .bss                   zero     0x200007d0     0x14  svpwm.o [1]
+  .bss                   zero     0x200007e4     0x10  adc.o [1]
+  .bss                   zero     0x200007f4     0x10  clarke.o [1]
+  .bss                   zero     0x20000804      0xc  error.o [1]
+  .bss                   zero     0x20000810      0xc  speed.o [1]
+  .bss                   zero     0x2000081c      0x8  menu.o [1]
+  .bss                   zero     0x20000824      0x8  tim8.o [1]
+  .bss                   zero     0x2000082c      0x4  error.o [1]
+  .bss                   zero     0x20000830      0x4  error.o [1]
+  .bss                   zero     0x20000834      0x4  error.o [1]
+  .bss                   zero     0x20000838      0x4  error.o [1]
+  .bss                   zero     0x2000083c      0x4  menu.o [1]
+  .bss                   zero     0x20000840      0x4  menu.o [1]
+  .bss                   zero     0x20000844      0x4  menu.o [1]
+  .bss                   zero     0x20000848      0x4  menu.o [1]
+  .bss                   zero     0x2000084c      0x4  menu.o [1]
+  .bss                   zero     0x20000850      0x4  menu.o [1]
+  .bss                   zero     0x20000854      0x4  menu.o [1]
+  .bss                   zero     0x20000858      0x4  menu.o [1]
+  .bss                   zero     0x2000085c      0x4  menu.o [1]
+  .bss                   zero     0x20000860      0x4  menu.o [1]
+  .bss                   zero     0x20000864      0x4  menu.o [1]
+  .bss                   zero     0x20000868      0x4  menu.o [1]
+  .bss                   zero     0x2000086c      0x4  menu.o [1]
+  .bss                   zero     0x20000870      0x4  menu.o [1]
+  .bss                   zero     0x20000874      0x4  menu.o [1]
+  .bss                   zero     0x20000878      0x4  menu.o [1]
+  .bss                   zero     0x2000087c      0x4  menu.o [1]
+  .bss                   zero     0x20000880      0x4  menu.o [1]
+  .bss                   zero     0x20000884      0x4  menu.o [1]
+  .bss                   zero     0x20000888      0x4  menu.o [1]
+  .bss                   zero     0x2000088c      0x4  menu.o [1]
+  .bss                   zero     0x20000890      0x4  menu.o [1]
+  .bss                   zero     0x20000894      0x4  menu.o [1]
+  .bss                   zero     0x20000898      0x4  menu.o [1]
+  .bss                   zero     0x2000089c      0x4  safe.o [1]
+  .bss                   zero     0x200008a0      0x4  safe.o [1]
+  .bss                   zero     0x200008a4      0x4  safe.o [1]
+  .bss                   zero     0x200008a8      0x4  safe.o [1]
+  .bss                   zero     0x200008ac      0x4  safe.o [1]
+  .bss                   zero     0x200008b0      0x4  safe.o [1]
+  .bss                   zero     0x200008b4      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008b8      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008bc      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008c0      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008c4      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008c8      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008cc      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008d0      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008d4      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008d8      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008dc      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008e0      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008e4      0x4  stm32f10x_it.o [1]
+  .bss                   zero     0x200008e8      0x4  system_parameter.o [1]
+  .bss                   zero     0x200008ec      0x4  system_parameter.o [1]
+  .bss                   zero     0x200008f0      0x4  system_parameter.o [1]
+  .bss                   zero     0x200008f4      0x4  system_parameter.o [1]
+  .bss                   zero     0x200008f8      0x4  system_parameter.o [1]
+  .bss                   zero     0x200008fc      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000900      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000904      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000908      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000090c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000910      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000914      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000918      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000091c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000920      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000924      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000928      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000092c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000930      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000934      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000938      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000093c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000940      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000944      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000948      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000094c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000950      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000954      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000958      0x4  system_parameter.o [1]
+  .bss                   zero     0x2000095c      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000960      0x4  system_parameter.o [1]
+  .bss                   zero     0x20000964      0x2  adc.o [1]
+  .bss                   zero     0x20000966      0x2  adc.o [1]
+  .bss                   zero     0x20000968      0x2  menu.o [1]
+  .bss                   zero     0x2000096a      0x2  menu.o [1]
+  .bss                   zero     0x2000096c      0x2  menu.o [1]
+  .bss                   zero     0x2000096e      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x20000970      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x20000972      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x20000974      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x20000976      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x20000978      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x2000097a      0x2  stm32f10x_it.o [1]
+  .bss                   zero     0x2000097c      0x2  system_parameter.o [1]
+  .bss                   zero     0x2000097e      0x2  system_parameter.o [1]
+  .bss                   zero     0x20000980      0x2  system_parameter.o [1]
+  .bss                   zero     0x20000982      0x2  system_parameter.o [1]
+  .bss                   zero     0x20000984      0x2  system_parameter.o [1]
+  .bss                   zero     0x20000986      0x1  error.o [1]
+  .bss                   zero     0x20000987      0x1  error.o [1]
+  .bss                   zero     0x20000988      0x1  error.o [1]
+  .bss                   zero     0x20000989      0x1  error.o [1]
+  .bss                   zero     0x2000098a      0x1  error.o [1]
+  .bss                   zero     0x2000098b      0x1  error.o [1]
+  .bss                   zero     0x2000098c      0x1  error.o [1]
+  .bss                   zero     0x2000098d      0x1  error.o [1]
+  .bss                   zero     0x2000098e      0x1  error.o [1]
+  .bss                   zero     0x2000098f      0x1  error.o [1]
+  .bss                   zero     0x20000990      0x1  error.o [1]
+  .bss                   zero     0x20000991      0x1  error.o [1]
+  .bss                   zero     0x20000992      0x1  error.o [1]
+  .bss                   zero     0x20000993      0x1  error.o [1]
+  .bss                   zero     0x20000994      0x1  error.o [1]
+  .bss                   zero     0x20000995      0x1  error.o [1]
+  .bss                   zero     0x20000996      0x1  error.o [1]
+  .bss                   zero     0x20000997      0x1  error.o [1]
+  .bss                   zero     0x20000998      0x1  error.o [1]
+  .bss                   zero     0x20000999      0x1  error.o [1]
+  .bss                   zero     0x2000099a      0x1  error.o [1]
+  .bss                   zero     0x2000099b      0x1  error.o [1]
+  .bss                   zero     0x2000099c      0x1  error.o [1]
+  .bss                   zero     0x2000099d      0x1  menu.o [1]
+  .bss                   zero     0x2000099e      0x1  menu.o [1]
+  .bss                   zero     0x2000099f      0x1  menu.o [1]
+  .bss                   zero     0x200009a0      0x1  menu.o [1]
+  .bss                   zero     0x200009a1      0x1  menu.o [1]
+  .bss                   zero     0x200009a2      0x1  safe.o [1]
+  .bss                   zero     0x200009a3      0x1  safe.o [1]
+  .bss                   zero     0x200009a4      0x1  safe.o [1]
+  .bss                   zero     0x200009a5      0x1  safe.o [1]
+  .bss                   zero     0x200009a6      0x1  safe.o [1]
+  .bss                   zero     0x200009a7      0x1  stm32f10x_it.o [1]
+  .bss                   zero     0x200009a8      0x1  stm32f10x_it.o [1]
+  .bss                   zero     0x200009a9      0x1  stm32f10x_it.o [1]
+  .bss                   zero     0x200009aa      0x1  stm32f10x_it.o [1]
+                                - 0x200009ab    0x603
+
+"P2", part 3 of 3:                              0x400
+  CSTACK                          0x200009b0    0x400  <Block>
+    CSTACK               uninit   0x200009b0    0x400  <Block tail>
+                                - 0x20000db0    0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x603:
+          0x200003a8  0x603
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x316 (84% of destination):
+          0x08013168  0x316
+    1 destination range, total size 0x3a6:
+          0x20000000  0x3a6
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\STM3210E-EVAL\Obj: [1]
+    24cxx.o                     808
+    adc.o                       724                60
+    angle.o                     338                44
+    clarke.o                     32                16
+    cmd.o                       748
+    curve.o                      44                32
+    delay.o                      82
+    encoder.o                   480
+    error.o                     936                71
+    id.o                        112                24
+    ipark.o                      66                20
+    led_key.o                   364
+    low_filter.o                 66               196
+    main.o                      148
+    menu.o                   10 896      229      545
+    misc.o                      156
+    motor_parameter.o                    864
+    myiic.o                     664
+    nvic_conf.o                  22
+    parameter.o                 164      701      640
+    park.o                       66                20
+    pid.o                        96               400
+    rampctrl.o                  146                40
+    rampgen.o                   102       20       24
+    rcc_conf.o                  180
+    safe.o                    4 492                73
+    speed.o                     136                36
+    startup_stm32f10x_hd.o      608
+    stm32f10x_adc.o             678
+    stm32f10x_exti.o            156
+    stm32f10x_flash.o            60
+    stm32f10x_gpio.o            572
+    stm32f10x_it.o            6 480                70
+    stm32f10x_rcc.o             548
+    stm32f10x_tim.o           1 616
+    svpwm.o                     740                20
+    system_parameter.o        2 636               134
+    tim8.o                      624                 8
+    -------------------------------------------------
+    Total:                   36 786    1 814    2 473
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+IQmathLib.a: [3]
+    IQNcos.o                  3 864
+    IQNcosPU.o                3 120
+    IQNdiv.o                  4 320
+    IQNmpy.o                    480
+    IQNsin.o                  3 748
+    IQNsinPU.o                3 000
+    IQNsqrt.o                 3 240
+    IQtables.o               15 616
+    -------------------------------------------------
+    Total:                   37 388
+
+dl7M_tlf.a: [4]
+    exit.o                        8
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tl.a: [5]
+    DblAdd.o                    230
+    DblCmpGe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    382
+    DblToFlt.o                  144
+    DblToI32.o                   86
+    FltDiv.o                    252
+    FltMul.o                    216
+    FltToDbl.o                   78
+    FltToS32.o                   68
+    I32ToDbl.o                   46
+    I32ToFlt.o                   48
+    -------------------------------------------------
+    Total:                    2 596
+
+rt7M_tl.a: [6]
+    bwt_init3c.o
+    cexit.o                      10
+    cmain.o                      22
+    cstartup_M.o                 12
+    data_init3.o                 44
+    packbits_init3.o            162
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      284
+
+shb_l.a: [7]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         32        2
+    Linker created                        44    1 024
+-----------------------------------------------------
+    Grand Total:             77 114    1 860    3 497
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x08012e39          Code  Gb  cmain.o [6]
+ADC1_2_IRQHandler       0x080130c1          Code  Wk  startup_stm32f10x_hd.o [1]
+ADC3_IRQHandler         0x08013135          Code  Wk  startup_stm32f10x_hd.o [1]
+ADC_ClearFlag           0x0800942b     0x8  Code  Gb  stm32f10x_adc.o [1]
+ADC_Cmd                 0x0800925b    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DeInit              0x0800918d    0x64  Code  Gb  stm32f10x_adc.o [1]
+ADC_ExternalTrigConvCmd
+                        0x080093e5    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x080092c5    0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetConversionValue  0x080093ff     0x6  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetFlagStatus       0x08009411    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x080092a3    0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_ITConfig            0x08009275    0x24  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x080091f1    0x50  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x080092f7    0xee  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x08009299     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_SoftwareStartConvCmd
+                        0x080092dd    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x080092bb     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_StructInit          0x08009241    0x1a  Code  Gb  stm32f10x_adc.o [1]
+AS_CALC_FACTOR          0x20000980     0x2  Data  Gb  system_parameter.o [1]
+AS_COMPENSATE_FACTOR    0x200008fc     0x4  Data  Gb  system_parameter.o [1]
+AT24CXX_Check           0x08003d63    0x5c  Code  Lc  24cxx.o [1]
+AT24CXX_Check1          0x08003dbf    0x54  Code  Gb  24cxx.o [1]
+AT24CXX_Init            0x08003c7d    0x2e  Code  Gb  24cxx.o [1]
+AT24CXX_ReadOneByte     0x08003cab    0x5a  Code  Lc  24cxx.o [1]
+AT24CXX_WriteOneByte    0x08003d05    0x5e  Code  Lc  24cxx.o [1]
+BR_TIME_FACTOR          0x20000960     0x4  Data  Gb  system_parameter.o [1]
+BusFault_Handler        0x0800719b     0x2  Code  Gb  stm32f10x_it.o [1]
+CAN1_RX1_IRQHandler     0x080130cd          Code  Wk  startup_stm32f10x_hd.o [1]
+CAN1_SCE_IRQHandler     0x080130d1          Code  Wk  startup_stm32f10x_hd.o [1]
+CSTACK$$Base            0x200009b0           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000db0           --   Gb  - Linker created -
+Cmd_Inc                 0x20000974     0x2  Data  Gb  stm32f10x_it.o [1]
+DMA1_Channel1_IRQHandler
+                        0x080130a5          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel2_IRQHandler
+                        0x080130a9          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel3_IRQHandler
+                        0x080130ad          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel4_IRQHandler
+                        0x080130b1          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel5_IRQHandler
+                        0x080130b5          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel6_IRQHandler
+                        0x080130b9          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA1_Channel7_IRQHandler
+                        0x080130bd          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA2_Channel1_IRQHandler
+                        0x08013159          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA2_Channel2_IRQHandler
+                        0x0801315d          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA2_Channel3_IRQHandler
+                        0x08013161          Code  Wk  startup_stm32f10x_hd.o [1]
+DMA2_Channel4_5_IRQHandler
+                        0x08013165          Code  Wk  startup_stm32f10x_hd.o [1]
+DebugMon_Handler        0x080071a1     0x2  Code  Gb  stm32f10x_it.o [1]
+Digital                 0x20000368     0xc  Data  Lc  menu.o [1]
+ELC_GEAR_FACTOR         0x20000948     0x4  Data  Gb  system_parameter.o [1]
+ELC_GEAR_MUL_FDB        0x20000950     0x4  Data  Gb  system_parameter.o [1]
+ELC_GEAR_MUL_MAX        0x2000094c     0x4  Data  Gb  system_parameter.o [1]
+ERROR_brake             0x20000993     0x1  Data  Gb  error.o [1]
+ERROR_control_power     0x2000098f     0x1  Data  Gb  error.o [1]
+ERROR_cwccw             0x2000098c     0x1  Data  Gb  error.o [1]
+ERROR_cwccw_now         0x2000099b     0x1  Data  Gb  error.o [1]
+ERROR_eeprom            0x20000995     0x1  Data  Gb  error.o [1]
+ERROR_encoder           0x2000098e     0x1  Data  Gb  error.o [1]
+ERROR_encoder_count     0x20000994     0x1  Data  Gb  error.o [1]
+ERROR_high_grade_code   0x20000794    0x14  Data  Gb  error.o [1]
+ERROR_ipm               0x20000990     0x1  Data  Gb  error.o [1]
+ERROR_lack_voltage      0x20000988     0x1  Data  Gb  error.o [1]
+ERROR_lack_voltage_now  0x2000099a     0x1  Data  Gb  error.o [1]
+ERROR_low_grade_code    0x20000804     0xc  Data  Gb  error.o [1]
+ERROR_over_current      0x20000991     0x1  Data  Gb  error.o [1]
+ERROR_over_current_counter
+                        0x20000834     0x4  Data  Gb  error.o [1]
+ERROR_over_heat         0x2000098a     0x1  Data  Gb  error.o [1]
+ERROR_over_heat_counter
+                        0x2000082c     0x4  Data  Gb  error.o [1]
+ERROR_over_load         0x20000992     0x1  Data  Gb  error.o [1]
+ERROR_over_load_counter
+                        0x20000838     0x4  Data  Gb  error.o [1]
+ERROR_over_speed        0x20000986     0x1  Data  Gb  error.o [1]
+ERROR_over_speed_now    0x20000998     0x1  Data  Gb  error.o [1]
+ERROR_over_user_load    0x20000996     0x1  Data  Gb  error.o [1]
+ERROR_over_voltage      0x20000987     0x1  Data  Gb  error.o [1]
+ERROR_over_voltage_now  0x20000999     0x1  Data  Gb  error.o [1]
+ERROR_pos_err           0x20000989     0x1  Data  Gb  error.o [1]
+ERROR_pos_overflow      0x2000098d     0x1  Data  Gb  error.o [1]
+ERROR_speed_pid_saturation
+                        0x2000098b     0x1  Data  Gb  error.o [1]
+ERROR_speed_pid_saturation_counter
+                        0x20000830     0x4  Data  Gb  error.o [1]
+ERROR_z                 0x20000997     0x1  Data  Gb  error.o [1]
+EXTERIOR_TORQUE_MAX_FACTOR
+                        0x20000914     0x4  Data  Gb  system_parameter.o [1]
+EXTERIOR_TORQUE_MIN_FACTOR
+                        0x20000918     0x4  Data  Gb  system_parameter.o [1]
+EXTI0_IRQHandler        0x08013091          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI15_10_IRQHandler    0x08013119          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI1_IRQHandler        0x08013095          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI2_IRQHandler        0x08013099          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI3_IRQHandler        0x0801309d          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI4_IRQHandler        0x080130a1          Code  Wk  startup_stm32f10x_hd.o [1]
+EXTI9_5_IRQHandler      0x08005863    0x3a  Code  Gb  stm32f10x_it.o [1]
+EXTI_Init               0x08009055    0x8a  Code  Gb  stm32f10x_exti.o [1]
+FLASH_IRQHandler        0x08013089          Code  Wk  startup_stm32f10x_hd.o [1]
+FLASH_PrefetchBufferCmd
+                        0x0800e151    0x20  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x0800e139    0x18  Code  Gb  stm32f10x_flash.o [1]
+FSMC_IRQHandler         0x08013139          Code  Wk  startup_stm32f10x_hd.o [1]
+GPIO_EXTILineConfig     0x080049e9    0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08004809   0x138  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08004977    0x72  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08004951    0x1a  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08004971     0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x0800496b     0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_StructInit         0x08004941    0x10  Code  Gb  stm32f10x_gpio.o [1]
+HardFault_Handler       0x080070df    0x14  Code  Gb  stm32f10x_it.o [1]
+I2C1_ER_IRQHandler      0x080130f9          Code  Wk  startup_stm32f10x_hd.o [1]
+I2C1_EV_IRQHandler      0x080130f5          Code  Wk  startup_stm32f10x_hd.o [1]
+I2C2_ER_IRQHandler      0x08013101          Code  Wk  startup_stm32f10x_hd.o [1]
+I2C2_EV_IRQHandler      0x080130fd          Code  Wk  startup_stm32f10x_hd.o [1]
+IIC_Ack                 0x08005691    0x38  Code  Gb  myiic.o [1]
+IIC_Init                0x0800559b    0x20  Code  Gb  myiic.o [1]
+IIC_NAck                0x080056c9    0x38  Code  Gb  myiic.o [1]
+IIC_Read_Byte           0x0800575f    0x5c  Code  Gb  myiic.o [1]
+IIC_Send_Byte           0x08005701    0x5e  Code  Gb  myiic.o [1]
+IIC_Start               0x080055bb    0x40  Code  Gb  myiic.o [1]
+IIC_Stop                0x080055fb    0x40  Code  Gb  myiic.o [1]
+IIC_Wait_Ack            0x0800563b    0x56  Code  Gb  myiic.o [1]
+INTERIOR_TORQUE_MAX_FACTOR
+                        0x2000090c     0x4  Data  Gb  system_parameter.o [1]
+INTERIOR_TORQUE_MIN_FACTOR
+                        0x20000910     0x4  Data  Gb  system_parameter.o [1]
+MOTOR_CURRENT_VIEW_FACTOR
+                        0x20000940     0x4  Data  Gb  system_parameter.o [1]
+MOTOR_TORQUE_VIEW_FACTOR
+                        0x2000093c     0x4  Data  Gb  system_parameter.o [1]
+MemManage_Handler       0x08007199     0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x080070dd     0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Init               0x080090fb    0x68  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x080090f1     0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable     0x08009163     0xc  Code  Gb  misc.o [1]
+OVER_CURRENT_MAX_FACTOR
+                        0x20000934     0x4  Data  Gb  system_parameter.o [1]
+OVER_CURRENT_TIME_FACTOR
+                        0x20000938     0x4  Data  Gb  system_parameter.o [1]
+OVER_HEAT_MAX_FACTOR    0x2000092c     0x4  Data  Gb  system_parameter.o [1]
+OVER_HEAT_TIME_FACTOR   0x20000930     0x4  Data  Gb  system_parameter.o [1]
+OVER_LOAD_MAX_FACTOR    0x20000924     0x4  Data  Gb  system_parameter.o [1]
+OVER_LOAD_TIME_FACTOR   0x20000928     0x4  Data  Gb  system_parameter.o [1]
+OV_TIME_FACTOR          0x2000095c     0x4  Data  Gb  system_parameter.o [1]
+POS_ARRIVE_FACTOR       0x20000984     0x2  Data  Gb  system_parameter.o [1]
+POS_ERR_MAX_FACTOR      0x20000944     0x4  Data  Gb  system_parameter.o [1]
+PVD_IRQHandler          0x08005861     0x2  Code  Gb  stm32f10x_it.o [1]
+PWM_PERIOD_FACTOR       0x2000097c     0x2  Data  Gb  system_parameter.o [1]
+PendSV_Handler          0x080071a3     0x2  Code  Gb  stm32f10x_it.o [1]
+Plc_Out                 0x08008635    0x46  Code  Gb  safe.o [1]
+Pos_Cmd                 0x200008b4     0x4  Data  Gb  stm32f10x_it.o [1]
+Pos_Cnt                 0x20000970     0x2  Data  Gb  stm32f10x_it.o [1]
+Pos_Cnt_Pre             0x20000972     0x2  Data  Gb  stm32f10x_it.o [1]
+Pos_Err                 0x200008bc     0x4  Data  Gb  stm32f10x_it.o [1]
+Pos_Ref                 0x200008b8     0x4  Data  Gb  stm32f10x_it.o [1]
+RATE_CURRENT_FACTOR     0x20000908     0x4  Data  Gb  system_parameter.o [1]
+RCC_ADCCLKConfig        0x08004dcd    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08004dff    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08004e3b    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08004de1    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x08004e1d    0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x08004e5f    0x50  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x08004d85     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x08004d8f    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x08004cb5    0x56  Code  Gb  stm32f10x_rcc.o [1]
+RCC_IRQHandler          0x0801308d          Code  Wk  startup_stm32f10x_hd.o [1]
+RCC_MCOConfig           0x08004e59     0x6  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config         0x08004da3    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x08004db7    0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x08004d67     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x08004d4b    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x08004d71    0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x08004d0b    0x40  Code  Gb  stm32f10x_rcc.o [1]
+RTCAlarm_IRQHandler     0x0801311d          Code  Wk  startup_stm32f10x_hd.o [1]
+RTC_IRQHandler          0x08013085          Code  Wk  startup_stm32f10x_hd.o [1]
+RUN_BRAKE_TIME_FACTOR   0x20000958     0x4  Data  Gb  system_parameter.o [1]
+Region$$Table$$Base     0x08012df0           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08012e1c           --   Gb  - Linker created -
+SB                      0x08013168          Data  Gb  bwt_init3c.o [6]
+SDIO_IRQHandler         0x0801313d          Code  Wk  startup_stm32f10x_hd.o [1]
+SPEED_ARRIVE_FACTOR     0x20000982     0x2  Data  Gb  system_parameter.o [1]
+SPEED_CALC_FACTOR       0x200008ec     0x4  Data  Gb  system_parameter.o [1]
+SPEED_CMD_VIEW_FACTOR   0x20000904     0x4  Data  Gb  system_parameter.o [1]
+SPEED_COMMAND_FACTOR    0x200008e8     0x4  Data  Gb  system_parameter.o [1]
+SPEED_MAX_FACTOR        0x200008f4     0x4  Data  Gb  system_parameter.o [1]
+SPEED_MIN_FACTOR        0x200008f8     0x4  Data  Gb  system_parameter.o [1]
+SPEED_PID_SATURATION_TIME_FACTOR
+                        0x20000900     0x4  Data  Gb  system_parameter.o [1]
+SPEED_UNIT_FACTOR       0x2000097e     0x2  Data  Gb  system_parameter.o [1]
+SPEED_VIEW_CALC_FACTOR  0x200008f0     0x4  Data  Gb  system_parameter.o [1]
+SPI1_IRQHandler         0x08013105          Code  Wk  startup_stm32f10x_hd.o [1]
+SPI2_IRQHandler         0x08013109          Code  Wk  startup_stm32f10x_hd.o [1]
+SPI3_IRQHandler         0x08013145          Code  Wk  startup_stm32f10x_hd.o [1]
+SR_TORQUE_MAX_FACTOR    0x2000091c     0x4  Data  Gb  system_parameter.o [1]
+SR_TORQUE_MIN_FACTOR    0x20000920     0x4  Data  Gb  system_parameter.o [1]
+STOP_BRAKE_TIME_FACTOR  0x20000954     0x4  Data  Gb  system_parameter.o [1]
+SVC_Handler             0x0800719f     0x2  Code  Gb  stm32f10x_it.o [1]
+Servo_Error_last        0x2000099e     0x1  Data  Lc  menu.o [1]
+SysTick_Handler         0x080071a5     0x2  Code  Gb  stm32f10x_it.o [1]
+SystemInit_ExtMemCtl    0x08012e1d          Code  Wk  startup_stm32f10x_hd.o [1]
+TAMPER_IRQHandler       0x08013081          Code  Wk  startup_stm32f10x_hd.o [1]
+TI1_Config              0x0800542b    0x38  Code  Lc  stm32f10x_tim.o [1]
+TI2_Config              0x08005463    0x42  Code  Lc  stm32f10x_tim.o [1]
+TI3_Config              0x080054a5    0x42  Code  Lc  stm32f10x_tim.o [1]
+TI4_Config              0x080054e7    0x42  Code  Lc  stm32f10x_tim.o [1]
+TIM1_BRK_IRQHandler     0x080130d9          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM1_CC_IRQHandler      0x080130e5          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM1_TRG_COM_IRQHandler
+                        0x080130e1          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM1_UP_IRQHandler      0x080130dd          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM2_IRQHandler         0x080130e9          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM3_IRQHandler         0x080130ed          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM4_IRQHandler         0x080130f1          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM5_IRQHandler         0x08013141          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM6_IRQHandler         0x08013151          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM7_IRQHandler         0x08013155          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM8_BRK_IRQHandler     0x08013125          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM8_CC_IRQHandler      0x08013131          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM8_TRG_COM_IRQHandler
+                        0x0801312d          Code  Wk  startup_stm32f10x_hd.o [1]
+TIM8_UP_IRQHandler      0x080058b9  0x17f2  Code  Gb  stm32f10x_it.o [1]
+TIM_ARRPreloadConfig    0x08005351    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_BDTRConfig          0x080051f1    0x20  Code  Gb  stm32f10x_tim.o [1]
+TIM_BDTRStructInit      0x08005261    0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearFlag           0x0800541b     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x08005423     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x0800527f    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x0800529b    0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_DeInit              0x08004ed9    0xd2  Code  Gb  stm32f10x_tim.o [1]
+TIM_ETRClockMode2Config
+                        0x080052d3    0x26  Code  Gb  stm32f10x_tim.o [1]
+TIM_ETRConfig           0x080052f9    0x1a  Code  Gb  stm32f10x_tim.o [1]
+TIM_EncoderInterfaceConfig
+                        0x08005313    0x3e  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetFlagStatus       0x08005403    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_ICInit              0x08005181    0x70  Code  Gb  stm32f10x_tim.o [1]
+TIM_ICStructInit        0x0800524b    0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x080052bd    0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1Init             0x08004fe1    0x78  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1PreloadConfig    0x0800536d    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x08005059    0x86  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x0800537f    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3Init             0x080050df    0x84  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3PreloadConfig    0x08005393    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OCStructInit        0x08005229    0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_SelectOutputTrigger
+                        0x080053a5    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetIC1Prescaler     0x080053b7    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetIC2Prescaler     0x080053c9    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetIC3Prescaler     0x080053dd    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetIC4Prescaler     0x080053ef    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08004fab    0x36  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseStructInit  0x08005211    0x18  Code  Gb  stm32f10x_tim.o [1]
+UART4_IRQHandler        0x08013149          Code  Wk  startup_stm32f10x_hd.o [1]
+UART5_IRQHandler        0x0801314d          Code  Wk  startup_stm32f10x_hd.o [1]
+USART1_IRQHandler       0x0801310d          Code  Wk  startup_stm32f10x_hd.o [1]
+USART2_IRQHandler       0x08013111          Code  Wk  startup_stm32f10x_hd.o [1]
+USART3_IRQHandler       0x08013115          Code  Wk  startup_stm32f10x_hd.o [1]
+USBWakeUp_IRQHandler    0x08013121          Code  Wk  startup_stm32f10x_hd.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x080130c5          Code  Wk  startup_stm32f10x_hd.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x080130c9          Code  Wk  startup_stm32f10x_hd.o [1]
+UsageFault_Handler      0x0800719d     0x2  Code  Gb  stm32f10x_it.o [1]
+WWDG_IRQHandler         0x08013079          Code  Wk  startup_stm32f10x_hd.o [1]
+_IQ10cos                0x0800fc81          Code  Gb  IQNcos.o [3]
+_IQ10cosPU              0x08012a2d          Code  Gb  IQNcosPU.o [3]
+_IQ10div                0x0800ec31          Code  Gb  IQNdiv.o [3]
+_IQ10mpy                0x08012e79          Code  Gb  IQNmpy.o [3]
+_IQ10sin                0x0801039d          Code  Gb  IQNsin.o [3]
+_IQ10sinPU              0x08012c0d          Code  Gb  IQNsinPU.o [3]
+_IQ10sqrt               0x080119a5          Code  Gb  IQNsqrt.o [3]
+_IQ11cos                0x0800fd0d          Code  Gb  IQNcos.o [3]
+_IQ11cosPU              0x080118c1          Code  Gb  IQNcosPU.o [3]
+_IQ11div                0x0800ecc1          Code  Gb  IQNdiv.o [3]
+_IQ11mpy                0x08012e89          Code  Gb  IQNmpy.o [3]
+_IQ11sin                0x08010425          Code  Gb  IQNsin.o [3]
+_IQ11sinPU              0x08011935          Code  Gb  IQNsinPU.o [3]
+_IQ11sqrt               0x08011a11          Code  Gb  IQNsqrt.o [3]
+_IQ12cos                0x0800fd99          Code  Gb  IQNcos.o [3]
+_IQ12cosPU              0x080109fd          Code  Gb  IQNcosPU.o [3]
+_IQ12div                0x0800ed51          Code  Gb  IQNdiv.o [3]
+_IQ12mpy                0x08012e99          Code  Gb  IQNmpy.o [3]
+_IQ12sin                0x080104ad          Code  Gb  IQNsin.o [3]
+_IQ12sinPU              0x0801117d          Code  Gb  IQNsinPU.o [3]
+_IQ12sqrt               0x08011a7d          Code  Gb  IQNsqrt.o [3]
+_IQ13cos                0x0800fe25          Code  Gb  IQNcos.o [3]
+_IQ13cosPU              0x08010a7d          Code  Gb  IQNcosPU.o [3]
+_IQ13div                0x0800ede1          Code  Gb  IQNdiv.o [3]
+_IQ13mpy                0x08012ea9          Code  Gb  IQNmpy.o [3]
+_IQ13sin                0x08010535          Code  Gb  IQNsin.o [3]
+_IQ13sinPU              0x080111f9          Code  Gb  IQNsinPU.o [3]
+_IQ13sqrt               0x08011ae9          Code  Gb  IQNsqrt.o [3]
+_IQ14cos                0x0800feb1          Code  Gb  IQNcos.o [3]
+_IQ14cosPU              0x08010afd          Code  Gb  IQNcosPU.o [3]
+_IQ14div                0x0800ee71          Code  Gb  IQNdiv.o [3]
+_IQ14mpy                0x08012eb9          Code  Gb  IQNmpy.o [3]
+_IQ14sin                0x080105bd          Code  Gb  IQNsin.o [3]
+_IQ14sinPU              0x08011275          Code  Gb  IQNsinPU.o [3]
+_IQ14sqrt               0x08011b55          Code  Gb  IQNsqrt.o [3]
+_IQ15cos                0x0800ff3d          Code  Gb  IQNcos.o [3]
+_IQ15cosPU              0x08010b7d          Code  Gb  IQNcosPU.o [3]
+_IQ15div                0x0800ef01          Code  Gb  IQNdiv.o [3]
+_IQ15mpy                0x08012ec9          Code  Gb  IQNmpy.o [3]
+_IQ15sin                0x08010645          Code  Gb  IQNsin.o [3]
+_IQ15sinPU              0x080112f1          Code  Gb  IQNsinPU.o [3]
+_IQ15sqrt               0x08011bc1          Code  Gb  IQNsqrt.o [3]
+_IQ16cos                0x0800ffc9          Code  Gb  IQNcos.o [3]
+_IQ16cosPU              0x08010bfd          Code  Gb  IQNcosPU.o [3]
+_IQ16div                0x0800ef91          Code  Gb  IQNdiv.o [3]
+_IQ16mpy                0x08012ed9          Code  Gb  IQNmpy.o [3]
+_IQ16sin                0x080106cd          Code  Gb  IQNsin.o [3]
+_IQ16sinPU              0x0801136d          Code  Gb  IQNsinPU.o [3]
+_IQ16sqrt               0x08011c2d          Code  Gb  IQNsqrt.o [3]
+_IQ17cos                0x08010055          Code  Gb  IQNcos.o [3]
+_IQ17cosPU              0x08010c7d          Code  Gb  IQNcosPU.o [3]
+_IQ17div                0x0800f021          Code  Gb  IQNdiv.o [3]
+_IQ17mpy                0x08012ee9          Code  Gb  IQNmpy.o [3]
+_IQ17sin                0x08010755          Code  Gb  IQNsin.o [3]
+_IQ17sinPU              0x080113e9          Code  Gb  IQNsinPU.o [3]
+_IQ17sqrt               0x08011c99          Code  Gb  IQNsqrt.o [3]
+_IQ18cos                0x080100e1          Code  Gb  IQNcos.o [3]
+_IQ18cosPU              0x08010cfd          Code  Gb  IQNcosPU.o [3]
+_IQ18div                0x0800f0b1          Code  Gb  IQNdiv.o [3]
+_IQ18mpy                0x08012ef9          Code  Gb  IQNmpy.o [3]
+_IQ18sin                0x080107dd          Code  Gb  IQNsin.o [3]
+_IQ18sinPU              0x08011465          Code  Gb  IQNsinPU.o [3]
+_IQ18sqrt               0x08011d05          Code  Gb  IQNsqrt.o [3]
+_IQ19cos                0x0801016d          Code  Gb  IQNcos.o [3]
+_IQ19cosPU              0x08010d7d          Code  Gb  IQNcosPU.o [3]
+_IQ19div                0x0800f141          Code  Gb  IQNdiv.o [3]
+_IQ19mpy                0x08012f09          Code  Gb  IQNmpy.o [3]
+_IQ19sin                0x08010865          Code  Gb  IQNsin.o [3]
+_IQ19sinPU              0x080114e1          Code  Gb  IQNsinPU.o [3]
+_IQ19sqrt               0x08011d71          Code  Gb  IQNsqrt.o [3]
+_IQ1cos                 0x0801264d          Code  Gb  IQNcos.o [3]
+_IQ1cosPU               0x08012a5d          Code  Gb  IQNcosPU.o [3]
+_IQ1div                 0x0800f1d1          Code  Gb  IQNdiv.o [3]
+_IQ1mpy                 0x08012f19          Code  Gb  IQNmpy.o [3]
+_IQ1sin                 0x0801284d          Code  Gb  IQNsin.o [3]
+_IQ1sinPU               0x08012c39          Code  Gb  IQNsinPU.o [3]
+_IQ1sqrt                0x08011ddd          Code  Gb  IQNsqrt.o [3]
+_IQ20cos                0x080101f9          Code  Gb  IQNcos.o [3]
+_IQ20cosPU              0x08010dfd          Code  Gb  IQNcosPU.o [3]
+_IQ20div                0x08008f31          Code  Gb  IQNdiv.o [3]
+_IQ20mpy                0x08012f29          Code  Gb  IQNmpy.o [3]
+_IQ20sin                0x080108ed          Code  Gb  IQNsin.o [3]
+_IQ20sinPU              0x0801155d          Code  Gb  IQNsinPU.o [3]
+_IQ20sqrt               0x08011e49          Code  Gb  IQNsqrt.o [3]
+_IQ21cos                0x0800dac5          Code  Gb  IQNcos.o [3]
+_IQ21cosPU              0x08010e7d          Code  Gb  IQNcosPU.o [3]
+_IQ21div                0x0800f261          Code  Gb  IQNdiv.o [3]
+_IQ21mpy                0x08012f39          Code  Gb  IQNmpy.o [3]
+_IQ21sin                0x0800e175          Code  Gb  IQNsin.o [3]
+_IQ21sinPU              0x080115d9          Code  Gb  IQNsinPU.o [3]
+_IQ21sqrt               0x08011eb5          Code  Gb  IQNsqrt.o [3]
+_IQ22cos                0x0800db7d          Code  Gb  IQNcos.o [3]
+_IQ22cosPU              0x08010efd          Code  Gb  IQNcosPU.o [3]
+_IQ22div                0x0800f2f1          Code  Gb  IQNdiv.o [3]
+_IQ22mpy                0x08012f49          Code  Gb  IQNmpy.o [3]
+_IQ22sin                0x0800e229          Code  Gb  IQNsin.o [3]
+_IQ22sinPU              0x08011655          Code  Gb  IQNsinPU.o [3]
+_IQ22sqrt               0x08011f21          Code  Gb  IQNsqrt.o [3]
+_IQ23cos                0x0800dc35          Code  Gb  IQNcos.o [3]
+_IQ23cosPU              0x08010f7d          Code  Gb  IQNcosPU.o [3]
+_IQ23div                0x0800f381          Code  Gb  IQNdiv.o [3]
+_IQ23mpy                0x08012f59          Code  Gb  IQNmpy.o [3]
+_IQ23sin                0x0800e2dd          Code  Gb  IQNsin.o [3]
+_IQ23sinPU              0x080116d1          Code  Gb  IQNsinPU.o [3]
+_IQ23sqrt               0x08011f8d          Code  Gb  IQNsqrt.o [3]
+_IQ24cos                0x0800dced          Code  Gb  IQNcos.o [3]
+_IQ24cosPU              0x08009859          Code  Gb  IQNcosPU.o [3]
+_IQ24div                0x080057c1          Code  Gb  IQNdiv.o [3]
+_IQ24mpy                0x08005851          Code  Gb  IQNmpy.o [3]
+_IQ24sin                0x0800e391          Code  Gb  IQNsin.o [3]
+_IQ24sinPU              0x080097dd          Code  Gb  IQNsinPU.o [3]
+_IQ24sqrt               0x08011ff9          Code  Gb  IQNsqrt.o [3]
+_IQ25cos                0x0800dda5          Code  Gb  IQNcos.o [3]
+_IQ25cosPU              0x08010ffd          Code  Gb  IQNcosPU.o [3]
+_IQ25div                0x0800f411          Code  Gb  IQNdiv.o [3]
+_IQ25mpy                0x08012f69          Code  Gb  IQNmpy.o [3]
+_IQ25sin                0x0800e445          Code  Gb  IQNsin.o [3]
+_IQ25sinPU              0x0801174d          Code  Gb  IQNsinPU.o [3]
+_IQ25sqrt               0x08012065          Code  Gb  IQNsqrt.o [3]
+_IQ26cos                0x0800de5d          Code  Gb  IQNcos.o [3]
+_IQ26cosPU              0x0801107d          Code  Gb  IQNcosPU.o [3]
+_IQ26div                0x0800f4a1          Code  Gb  IQNdiv.o [3]
+_IQ26mpy                0x08012f79          Code  Gb  IQNmpy.o [3]
+_IQ26sin                0x0800e4f9          Code  Gb  IQNsin.o [3]
+_IQ26sinPU              0x080117c9          Code  Gb  IQNsinPU.o [3]
+_IQ26sqrt               0x080120d1          Code  Gb  IQNsqrt.o [3]
+_IQ27cos                0x0800df15          Code  Gb  IQNcos.o [3]
+_IQ27cosPU              0x080110fd          Code  Gb  IQNcosPU.o [3]
+_IQ27div                0x0800f531          Code  Gb  IQNdiv.o [3]
+_IQ27mpy                0x08012f89          Code  Gb  IQNmpy.o [3]
+_IQ27sin                0x0800e5ad          Code  Gb  IQNsin.o [3]
+_IQ27sinPU              0x08011845          Code  Gb  IQNsinPU.o [3]
+_IQ27sqrt               0x0801213d          Code  Gb  IQNsqrt.o [3]
+_IQ28cos                0x0800dfcd          Code  Gb  IQNcos.o [3]
+_IQ28cosPU              0x0800f5c1          Code  Gb  IQNcosPU.o [3]
+_IQ28div                0x0800f651          Code  Gb  IQNdiv.o [3]
+_IQ28mpy                0x08012f99          Code  Gb  IQNmpy.o [3]
+_IQ28sin                0x0800e661          Code  Gb  IQNsin.o [3]
+_IQ28sinPU              0x08010285          Code  Gb  IQNsinPU.o [3]
+_IQ28sqrt               0x080121a9          Code  Gb  IQNsqrt.o [3]
+_IQ29cos                0x0800d939          Code  Gb  IQNcos.o [3]
+_IQ29cosPU              0x0800e715          Code  Gb  IQNcosPU.o [3]
+_IQ29div                0x0800f6e1          Code  Gb  IQNdiv.o [3]
+_IQ29mpy                0x08012fa9          Code  Gb  IQNmpy.o [3]
+_IQ29sin                0x0800da01          Code  Gb  IQNsin.o [3]
+_IQ29sinPU              0x0800e7bd          Code  Gb  IQNsinPU.o [3]
+_IQ29sqrt               0x08012215          Code  Gb  IQNsqrt.o [3]
+_IQ2cos                 0x0801268d          Code  Gb  IQNcos.o [3]
+_IQ2cosPU               0x08012a8d          Code  Gb  IQNcosPU.o [3]
+_IQ2div                 0x0800f771          Code  Gb  IQNdiv.o [3]
+_IQ2mpy                 0x08012fb9          Code  Gb  IQNmpy.o [3]
+_IQ2sin                 0x08012889          Code  Gb  IQNsin.o [3]
+_IQ2sinPU               0x08012c65          Code  Gb  IQNsinPU.o [3]
+_IQ2sqrt                0x08012281          Code  Gb  IQNsqrt.o [3]
+_IQ30cosPU              0x0800e861          Code  Gb  IQNcosPU.o [3]
+_IQ30div                0x0800f801          Code  Gb  IQNdiv.o [3]
+_IQ30mpy                0x08012fc9          Code  Gb  IQNmpy.o [3]
+_IQ30sinPU              0x0800ea49          Code  Gb  IQNsinPU.o [3]
+_IQ30sqrt               0x080122ed          Code  Gb  IQNsqrt.o [3]
+_IQ3cos                 0x080126cd          Code  Gb  IQNcos.o [3]
+_IQ3cosPU               0x08012abd          Code  Gb  IQNcosPU.o [3]
+_IQ3div                 0x0800f891          Code  Gb  IQNdiv.o [3]
+_IQ3mpy                 0x08012fd9          Code  Gb  IQNmpy.o [3]
+_IQ3sin                 0x080128c5          Code  Gb  IQNsin.o [3]
+_IQ3sinPU               0x08012c91          Code  Gb  IQNsinPU.o [3]
+_IQ3sqrt                0x08012359          Code  Gb  IQNsqrt.o [3]
+_IQ4cos                 0x0801270d          Code  Gb  IQNcos.o [3]
+_IQ4cosPU               0x08012aed          Code  Gb  IQNcosPU.o [3]
+_IQ4div                 0x0800f921          Code  Gb  IQNdiv.o [3]
+_IQ4mpy                 0x08012fe9          Code  Gb  IQNmpy.o [3]
+_IQ4sin                 0x08012901          Code  Gb  IQNsin.o [3]
+_IQ4sinPU               0x08012cbd          Code  Gb  IQNsinPU.o [3]
+_IQ4sqrt                0x080123c5          Code  Gb  IQNsqrt.o [3]
+_IQ5cos                 0x0801274d          Code  Gb  IQNcos.o [3]
+_IQ5cosPU               0x08012b1d          Code  Gb  IQNcosPU.o [3]
+_IQ5div                 0x0800f9b1          Code  Gb  IQNdiv.o [3]
+_IQ5mpy                 0x08012ff9          Code  Gb  IQNmpy.o [3]
+_IQ5sin                 0x0801293d          Code  Gb  IQNsin.o [3]
+_IQ5sinPU               0x08012ce9          Code  Gb  IQNsinPU.o [3]
+_IQ5sqrt                0x08012431          Code  Gb  IQNsqrt.o [3]
+_IQ6cos                 0x0801278d          Code  Gb  IQNcos.o [3]
+_IQ6cosPU               0x08012b4d          Code  Gb  IQNcosPU.o [3]
+_IQ6div                 0x0800fa41          Code  Gb  IQNdiv.o [3]
+_IQ6mpy                 0x08013009          Code  Gb  IQNmpy.o [3]
+_IQ6sin                 0x08012979          Code  Gb  IQNsin.o [3]
+_IQ6sinPU               0x08012d15          Code  Gb  IQNsinPU.o [3]
+_IQ6sqrt                0x0801249d          Code  Gb  IQNsqrt.o [3]
+_IQ7cos                 0x080127cd          Code  Gb  IQNcos.o [3]
+_IQ7cosPU               0x08012b7d          Code  Gb  IQNcosPU.o [3]
+_IQ7div                 0x0800fad1          Code  Gb  IQNdiv.o [3]
+_IQ7mpy                 0x08013019          Code  Gb  IQNmpy.o [3]
+_IQ7sin                 0x080129b5          Code  Gb  IQNsin.o [3]
+_IQ7sinPU               0x08012d41          Code  Gb  IQNsinPU.o [3]
+_IQ7sqrt                0x08012509          Code  Gb  IQNsqrt.o [3]
+_IQ8cos                 0x0801280d          Code  Gb  IQNcos.o [3]
+_IQ8cosPU               0x08012bad          Code  Gb  IQNcosPU.o [3]
+_IQ8div                 0x0800fb61          Code  Gb  IQNdiv.o [3]
+_IQ8mpy                 0x08013029          Code  Gb  IQNmpy.o [3]
+_IQ8sin                 0x080129f1          Code  Gb  IQNsin.o [3]
+_IQ8sinPU               0x08012d6d          Code  Gb  IQNsinPU.o [3]
+_IQ8sqrt                0x08012575          Code  Gb  IQNsqrt.o [3]
+_IQ9cos                 0x08010311          Code  Gb  IQNcos.o [3]
+_IQ9cosPU               0x08012bdd          Code  Gb  IQNcosPU.o [3]
+_IQ9div                 0x0800fbf1          Code  Gb  IQNdiv.o [3]
+_IQ9mpy                 0x08013039          Code  Gb  IQNmpy.o [3]
+_IQ9sin                 0x08010975          Code  Gb  IQNsin.o [3]
+_IQ9sinPU               0x08012d99          Code  Gb  IQNsinPU.o [3]
+_IQ9sqrt                0x080125e1          Code  Gb  IQNsqrt.o [3]
+__aeabi_cdrcmple        0x0800426d          Code  Gb  DblCmpGe.o [5]
+__aeabi_d2f             0x08004a99          Code  Gb  DblToFlt.o [5]
+__aeabi_d2iz            0x080044e5          Code  Gb  DblToI32.o [5]
+__aeabi_d2uiz           0x08004511          Code  Gb  DblToI32.o [5]
+__aeabi_dadd            0x08004185          Code  Gb  DblAdd.o [5]
+__aeabi_ddiv            0x0800429d          Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x08003fe1          Code  Gb  DblMul.o [5]
+__aeabi_dsub            0x0800453d          Code  Gb  DblSub.o [5]
+__aeabi_f2d             0x08004c25          Code  Gb  FltToDbl.o [5]
+__aeabi_f2iz            0x080047c5          Code  Gb  FltToS32.o [5]
+__aeabi_fdiv            0x08004b29          Code  Gb  FltDiv.o [5]
+__aeabi_fmul            0x080046ed          Code  Gb  FltMul.o [5]
+__aeabi_i2d             0x08003fb1          Code  Gb  I32ToDbl.o [5]
+__aeabi_i2f             0x080046bd          Code  Gb  I32ToFlt.o [5]
+__aeabi_ui2d            0x08003fc5          Code  Gb  I32ToDbl.o [5]
+__aeabi_ui2f            0x080046d1          Code  Gb  I32ToFlt.o [5]
+__cmain                 0x08012e39          Code  Gb  cmain.o [6]
+__exit                  0x08012e65    0x14  Code  Gb  exit.o [7]
+__iar_d2uiz             0x0800451b          Code  Gb  DblToI32.o [5]
+__iar_dadd              0x08004197          Code  Gb  DblAdd.o [5]
+__iar_data_init3        0x08012dc5    0x2c  Code  Gb  data_init3.o [6]
+__iar_dsub              0x0800454f          Code  Gb  DblSub.o [5]
+__iar_dsubStart         0x08004561          Code  Gb  DblSub.o [5]
+__iar_packbits_init3    0x0800e905    0xa2  Code  Gb  packbits_init3.o [6]
+__iar_program_start     0x08013049          Code  Gb  cstartup_M.o [6]
+__iar_ui2d              0x08003fc7          Code  Gb  I32ToDbl.o [5]
+__iar_ui2f              0x080046d3          Code  Gb  I32ToFlt.o [5]
+__iar_zero_init3        0x08003c5b    0x22  Code  Gb  zero_init3.o [6]
+__low_level_init        0x08012e1f          Code  Gb  startup_stm32f10x_hd.o [1]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main              0x08012e45          Code  Gb  cmain.o [6]
+_exit                   0x08012e59          Code  Gb  cexit.o [6]
+_main                   0x08012e4b          Code  Gb  cmain.o [6]
+abs                     0x08003fa5     0xa  Code  Gb  stm32f10x_it.o [1]
+alm_disable             0x080084d9    0x24  Code  Gb  safe.o [1]
+alm_enable              0x080084ad    0x28  Code  Gb  safe.o [1]
+angle_calc              0x08003bed    0x68  Code  Gb  angle.o [1]
+angle_calibrate         0x08003c55     0x6  Code  Gb  angle.o [1]
+angle_init              0x08003b09    0xd8  Code  Gb  angle.o [1]
+angle_parameter         0x200005d8    0x2c  Data  Gb  angle.o [1]
+as_filter               0x20000748    0x1c  Data  Gb  low_filter.o [1]
+as_parameter            0x200007e4    0x10  Data  Gb  adc.o [1]
+as_read                 0x080075d9    0x64  Code  Gb  adc.o [1]
+as_sense_times_tmp      0x20000966     0x2  Data  Gb  adc.o [1]
+asin_table_flat         0x0800d83c          Data  Gb  IQtables.o [3]
+asin_table_polynomial   0x080098d8          Data  Gb  IQtables.o [3]
+atan2PU_table           0x0800b0d8          Data  Gb  IQtables.o [3]
+backup_region_to_par    0x08003f11    0x52  Code  Gb  24cxx.o [1]
+br_delay                0x200008b0     0x4  Data  Gb  safe.o [1]
+br_delay_flag           0x200009a6     0x1  Data  Gb  safe.o [1]
+brk_disable             0x08008521    0x24  Code  Gb  safe.o [1]
+brk_enable              0x080084fd    0x24  Code  Gb  safe.o [1]
+clarke_calc             0x080088d9    0x20  Code  Gb  clarke.o [1]
+clarke_parameter        0x200007f4    0x10  Data  Gb  clarke.o [1]
+clear_parameter         0x0800867b   0x110  Code  Gb  safe.o [1]
+cmd_config_init         0x08003779    0x32  Code  Gb  cmd.o [1]
+cmd_plus_plus_config    0x0800392d   0x11a  Code  Gb  cmd.o [1]
+cmd_plus_sign_config    0x08003877    0xb6  Code  Gb  cmd.o [1]
+cmd_quadrature_config   0x080037ab    0xcc  Code  Gb  cmd.o [1]
+coin_disable            0x08008569    0x24  Code  Gb  safe.o [1]
+coin_enable             0x08008545    0x24  Code  Gb  safe.o [1]
+current_sense_times_tmp
+                        0x20000964     0x2  Data  Gb  adc.o [1]
+curve_init              0x0800eb95    0x1e  Code  Gb  curve.o [1]
+curve_parameter         0x20000680    0x20  Data  Gb  curve.o [1]
+cwccw_check             0x08007b3f    0x30  Code  Gb  safe.o [1]
+default_to_all          0x08003f63    0x36  Code  Gb  24cxx.o [1]
+delay_10us              0x08004a6d    0x14  Code  Gb  delay.o [1]
+delay_1us               0x08004a45    0x14  Code  Gb  delay.o [1]
+delay_200us             0x08004a81    0x16  Code  Gb  delay.o [1]
+delay_2us               0x08004a59    0x14  Code  Gb  delay.o [1]
+dischar                 0x2000081c     0x8  Data  Gb  menu.o [1]
+disdelay                0x20000898     0x4  Data  Gb  menu.o [1]
+disp_1                  0x08000de9    0x9e  Code  Gb  menu.o [1]
+disp_2                  0x08000ea9   0x520  Code  Gb  menu.o [1]
+disp_3                  0x080013cd    0x3e  Code  Gb  menu.o [1]
+disp_31                 0x0800146d  0x13bc  Code  Gb  menu.o [1]
+disp_32                 0x08002845   0x2fe  Code  Gb  menu.o [1]
+disp_fault              0x08002b43    0x26  Code  Gb  menu.o [1]
+div_table               0x0800c4dc          Data  Gb  IQtables.o [3]
+drive_check             0x08007dbd   0x128  Code  Gb  safe.o [1]
+elc_gear_reset_cnt      0x200008d8     0x4  Data  Gb  stm32f10x_it.o [1]
+encoder_check           0x08007ee5    0xf2  Code  Gb  safe.o [1]
+encoder_check_T         0x200008a8     0x4  Data  Gb  safe.o [1]
+encoder_config          0x080071a9   0x19a  Code  Gb  encoder.o [1]
+encoder_offset_deta     0x200008e4     0x4  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode     0x200009a0     0x1  Data  Gb  menu.o [1]
+encoder_offset_mode_delay
+                        0x200008dc     0x4  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_delay_flag
+                        0x200009a7     0x1  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_run_delay
+                        0x200008e0     0x4  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_run_delay_flag
+                        0x200009a8     0x1  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_z_cnt
+                        0x2000097a     0x2  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_z_cnt_flag
+                        0x200009aa     0x1  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_zero_cnt
+                        0x20000978     0x2  Data  Gb  stm32f10x_it.o [1]
+encoder_offset_mode_zero_cnt_flag
+                        0x200009a9     0x1  Data  Gb  stm32f10x_it.o [1]
+encoder_uvw_read        0x08007343    0x36  Code  Gb  encoder.o [1]
+err_state               0x2000099f     0x1  Data  Gb  menu.o [1]
+error                   0x20000394     0x8  Data  Gb  menu.o [1]
+error_calc              0x08009435   0x2ba  Code  Gb  error.o [1]
+error_reset             0x080096ef    0x7e  Code  Gb  error.o [1]
+exit                    0x08012e4f     0x8  Code  Gb  exit.o [4]
+feed_forward_pos        0x2000059c    0x3c  Data  Gb  pid.o [1]
+finish                  0x2000038c     0x8  Data  Gb  menu.o [1]
+id_fdb_filter           0x2000072c    0x1c  Data  Gb  low_filter.o [1]
+id_parameter            0x20000764    0x18  Data  Gb  id.o [1]
+id_ref_filter           0x20000710    0x1c  Data  Gb  low_filter.o [1]
+id_verify               0x0800ebc1    0x70  Code  Gb  id.o [1]
+ipark_calc              0x0800899b    0x42  Code  Gb  ipark.o [1]
+ipark_parameter         0x200007a8    0x14  Data  Gb  ipark.o [1]
+iq_fdb_filter           0x200006f4    0x1c  Data  Gb  low_filter.o [1]
+iq_ref_filter           0x200006d8    0x1c  Data  Gb  low_filter.o [1]
+isqrt_table             0x0800ccdc          Data  Gb  IQtables.o [3]
+keyNUM                  0x2000096a     0x2  Data  Gb  menu.o [1]
+key_read                0x08002c9d    0x8a  Code  Gb  led_key.o [1]
+key_value               0x2000096c     0x2  Data  Gb  menu.o [1]
+keydelay                0x20000894     0x4  Data  Gb  menu.o [1]
+led_conf                0x08008591    0x68  Code  Gb  safe.o [1]
+led_delay               0x20000976     0x2  Data  Gb  stm32f10x_it.o [1]
+led_key_config          0x08002bc1    0x8a  Code  Gb  led_key.o [1]
+led_power_off           0x08008623     0xa  Code  Gb  safe.o [1]
+led_power_on            0x08008619     0xa  Code  Gb  safe.o [1]
+led_run_off             0x08008609     0xa  Code  Gb  safe.o [1]
+led_run_on              0x080085f9     0xa  Code  Gb  safe.o [1]
+led_write               0x08002c4b    0x52  Code  Gb  led_key.o [1]
+low_filter_calc         0x08004c95    0x20  Code  Gb  low_filter.o [1]
+low_filter_init         0x08004c73    0x22  Code  Gb  low_filter.o [1]
+main                    0x0800eae9    0x94  Code  Gb  main.o [1]
+meau_dis1               0x20000300    0x30  Data  Gb  menu.o [1]
+meau_dis21              0x20000280    0x80  Data  Gb  menu.o [1]
+meau_dis22              0x20000374     0x8  Data  Gb  menu.o [1]
+meau_dis23              0x20000330    0x20  Data  Gb  menu.o [1]
+meaumax2                0x20000384     0x8  Data  Gb  menu.o [1]
+menu_1                  0x08000429   0x122  Code  Gb  menu.o [1]
+menu_2                  0x0800054b    0x58  Code  Gb  menu.o [1]
+menu_21                 0x080005a3    0xa4  Code  Gb  menu.o [1]
+menu_22                 0x08000647   0x17e  Code  Gb  menu.o [1]
+menu_23                 0x080007c5    0xb6  Code  Gb  menu.o [1]
+menu_24                 0x0800087b    0xbc  Code  Gb  menu.o [1]
+menu_25                 0x08000937    0x5a  Code  Gb  menu.o [1]
+menu_26                 0x08000991    0x30  Code  Gb  menu.o [1]
+menu_27                 0x080009c1    0x3a  Code  Gb  menu.o [1]
+menu_28                 0x080009fb    0x30  Code  Gb  menu.o [1]
+menu_3                  0x08000a2b    0x2a  Code  Gb  menu.o [1]
+menu_31                 0x08000a55    0x30  Code  Gb  menu.o [1]
+menu_32                 0x08000a85   0x186  Code  Gb  menu.o [1]
+menu_33                 0x08000c31   0x1b0  Code  Gb  menu.o [1]
+menu_displaychar        0x08000191    0x64  Code  Gb  menu.o [1]
+menu_function           0x080001f5   0x234  Code  Gb  menu.o [1]
+menu_init               0x08000131    0x60  Code  Gb  menu.o [1]
+motor_parameter         0x0800d4dc   0x360  Data  Gb  motor_parameter.o [1]
+motor_parameter_read    0x08003a65    0xa4  Code  Gb  parameter.o [1]
+nvic_conf               0x0800eb7d    0x16  Code  Gb  nvic_conf.o [1]
+ov_delay                0x200008ac     0x4  Data  Gb  safe.o [1]
+ov_delay_flag           0x200009a5     0x1  Data  Gb  safe.o [1]
+par3s                   0x20000968     0x2  Data  Gb  menu.o [1]
+par_cnt                 0x20000864     0x4  Data  Gb  menu.o [1]
+par_cod                 0x20000880     0x4  Data  Gb  menu.o [1]
+par_cpo_high            0x2000084c     0x4  Data  Gb  menu.o [1]
+par_cpo_low             0x20000848     0x4  Data  Gb  menu.o [1]
+par_cs                  0x2000086c     0x4  Data  Gb  menu.o [1]
+par_ct                  0x20000870     0x4  Data  Gb  menu.o [1]
+par_epo_high            0x20000854     0x4  Data  Gb  menu.o [1]
+par_epo_low             0x20000850     0x4  Data  Gb  menu.o [1]
+par_err                 0x20000884     0x4  Data  Gb  menu.o [1]
+par_frq                 0x20000868     0x4  Data  Gb  menu.o [1]
+par_i                   0x2000085c     0x4  Data  Gb  menu.o [1]
+par_in                  0x20000878     0x4  Data  Gb  menu.o [1]
+par_jog                 0x20000890     0x4  Data  Gb  menu.o [1]
+par_lsp                 0x20000860     0x4  Data  Gb  menu.o [1]
+par_out                 0x2000087c     0x4  Data  Gb  menu.o [1]
+par_pos_high            0x20000844     0x4  Data  Gb  menu.o [1]
+par_pos_low             0x20000840     0x4  Data  Gb  menu.o [1]
+par_region_to_par       0x08003ec5    0x4c  Code  Gb  24cxx.o [1]
+par_rpo                 0x20000874     0x4  Data  Gb  menu.o [1]
+par_set                 0x20000888     0x4  Data  Gb  menu.o [1]
+par_spd                 0x2000083c     0x4  Data  Gb  menu.o [1]
+par_to_backup_region    0x08003e67    0x5e  Code  Gb  24cxx.o [1]
+par_to_par_region       0x08003e13    0x54  Code  Gb  24cxx.o [1]
+par_trq                 0x20000858     0x4  Data  Gb  menu.o [1]
+par_tspd                0x2000088c     0x4  Data  Gb  menu.o [1]
+parameter_confirm       0x2000099d     0x1  Data  Gb  menu.o [1]
+parameter_table         0x20000000    0xa0  Data  Gb  parameter.o [1]
+parameter_table_default
+                        0x0800e9a8    0xa0  Data  Gb  parameter.o [1]
+parameter_table_max     0x200000a0    0xa0  Data  Gb  parameter.o [1]
+parameter_table_min     0x20000140    0xa0  Data  Gb  parameter.o [1]
+parameter_table_step    0x200001e0    0xa0  Data  Gb  parameter.o [1]
+parameter_table_tmp     0x200003a8    0xa0  Data  Gb  menu.o [1]
+park_calc               0x080088f9    0x42  Code  Gb  park.o [1]
+park_parameter          0x200007bc    0x14  Data  Gb  park.o [1]
+phase_current_conf      0x08007389   0x184  Code  Gb  adc.o [1]
+phase_current_parameter
+                        0x20000630    0x28  Data  Gb  adc.o [1]
+phase_current_read      0x0800750d    0xcc  Code  Gb  adc.o [1]
+pi_caculation           0x0800893b    0x60  Code  Gb  pid.o [1]
+pid_id                  0x20000448    0x44  Data  Gb  pid.o [1]
+pid_id_encoder_offset   0x200004d0    0x44  Data  Gb  pid.o [1]
+pid_iq                  0x2000048c    0x44  Data  Gb  pid.o [1]
+pid_iq_encoder_offset   0x20000514    0x44  Data  Gb  pid.o [1]
+pid_iq_view             0x200008c0     0x4  Data  Gb  stm32f10x_it.o [1]
+pid_iq_view_add         0x200008c4     0x4  Data  Gb  stm32f10x_it.o [1]
+pid_iq_view_cnt         0x200008c8     0x4  Data  Gb  stm32f10x_it.o [1]
+pid_speed               0x20000558    0x44  Data  Gb  pid.o [1]
+plc_check               0x08007b6f   0x24e  Code  Gb  safe.o [1]
+plc_delay_1             0x2000089c     0x4  Data  Gb  safe.o [1]
+plc_delay_2             0x200008a0     0x4  Data  Gb  safe.o [1]
+plc_delay_3             0x200008a4     0x4  Data  Gb  safe.o [1]
+plc_delay_flag_1        0x200009a2     0x1  Data  Gb  safe.o [1]
+plc_delay_flag_2        0x200009a3     0x1  Data  Gb  safe.o [1]
+plc_delay_flag_3        0x200009a4     0x1  Data  Gb  safe.o [1]
+rampctrl_calc           0x08008fc1    0x92  Code  Gb  rampctrl.o [1]
+rampctrl_parameter      0x20000658    0x28  Data  Gb  rampctrl.o [1]
+rampgen_calc            0x08008871    0x66  Code  Gb  rampgen.o [1]
+rampgen_parameter       0x20000350    0x18  Data  Gb  rampgen.o [1]
+rcc_config              0x0800e085    0xb4  Code  Gb  rcc_conf.o [1]
+safe_function           0x080076e5    0xee  Code  Gb  safe.o [1]
+safe_init               0x080077d3   0x36c  Code  Gb  safe.o [1]
+safe_parameter          0x20000604    0x2c  Data  Gb  safe.o [1]
+scl_set_out             0x08005575    0x26  Code  Gb  myiic.o [1]
+sda_set_in              0x08005529    0x26  Code  Gb  myiic.o [1]
+sda_set_out             0x0800554f    0x26  Code  Gb  myiic.o [1]
+sincos_table            0x0800bcd8          Data  Gb  IQtables.o [3]
+speed_calc              0x0800765d    0x34  Code  Gb  speed.o [1]
+speed_cmd_add           0x200008d0     0x4  Data  Gb  stm32f10x_it.o [1]
+speed_cmd_cnt           0x200008cc     0x4  Data  Gb  stm32f10x_it.o [1]
+speed_cmd_view          0x200008d4     0x4  Data  Gb  stm32f10x_it.o [1]
+speed_fdb_filter        0x200006bc    0x1c  Data  Gb  low_filter.o [1]
+speed_parameter         0x20000810     0xc  Data  Gb  speed.o [1]
+speed_ref_filter        0x200006a0    0x1c  Data  Gb  low_filter.o [1]
+speed_view_calc         0x08007691    0x4a  Code  Gb  speed.o [1]
+speed_view_parameter    0x2000077c    0x18  Data  Gb  speed.o [1]
+speedloopcnt            0x2000096e     0x2  Data  Gb  stm32f10x_it.o [1]
+srdy_disable            0x08008485    0x24  Code  Gb  safe.o [1]
+srdy_enable             0x0800845f    0x26  Code  Gb  safe.o [1]
+start                   0x2000039c     0x8  Data  Gb  menu.o [1]
+statemeau               0x200003a4     0x1  Data  Gb  menu.o [1]
+statemeau1              0x200003a5     0x1  Data  Gb  menu.o [1]
+statemeau2              0x2000037c     0x8  Data  Gb  menu.o [1]
+statemeau3              0x200009a1     0x1  Data  Gb  menu.o [1]
+svpwm_calc              0x080089dd   0x2e4  Code  Gb  svpwm.o [1]
+svpwm_parameter         0x200007d0    0x14  Data  Gb  svpwm.o [1]
+system_end_state        0x08007ffb    0x5e  Code  Gb  safe.o [1]
+system_error_function   0x080082bd    0xf0  Code  Gb  safe.o [1]
+system_initial_state    0x08007fd7    0x24  Code  Gb  safe.o [1]
+system_parameter_init   0x08002d2d   0xa4c  Code  Gb  system_parameter.o [1]
+system_ready_state      0x08008059    0xa0  Code  Gb  safe.o [1]
+system_run_state        0x080080f9    0x86  Code  Gb  safe.o [1]
+system_stop_state       0x0800817f   0x13e  Code  Gb  safe.o [1]
+system_wait_state       0x080083b5    0xaa  Code  Gb  safe.o [1]
+temp_mask               0x2000099c     0x1  Data  Gb  error.o [1]
+tim8_conf               0x08008cc1   0x218  Code  Gb  tim8.o [1]
+tim8_pwm_parameter      0x20000824     0x8  Data  Gb  tim8.o [1]
+tim8_pwm_update         0x08008ed9    0x38  Code  Gb  tim8.o [1]
+
+
+[1] = E:\伺服电机\源程序\2.6.6\2.6\Project\Template\EWARMv5\STM3210E-EVAL\Obj
+[2] = command line
+[3] = IQmathLib.a
+[4] = dl7M_tlf.a
+[5] = m7M_tl.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  77 114 bytes of readonly  code memory
+   1 860 bytes of readonly  data memory
+   3 497 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

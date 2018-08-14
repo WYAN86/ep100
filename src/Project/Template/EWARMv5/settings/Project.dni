@@ -1,0 +1,219 @@
+[DebugChecksum]
+Checksum=1840956991
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[SWOTraceHWSettings]
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+PcSampIndex=0
+OverrideDefaultClocks=0
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[TraceHelperExtra]
+Enabled=0
+ShowSource=1
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Breakpoints]
+Count=0
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+[struct_types]
+Fmt0=id-id_read1	4	0
+Fmt1=id-id_read2	4	0
+Fmt2=id-id_read3	4	0
+Fmt3=id-id_set1	4	0
+Fmt4=id-id_set2	4	0
+Fmt5=id-id_set3	4	0
+[watch_formats]
+Fmt0={W}42:id_parameter.id_read1	4	0
+Fmt1={W}42:id_parameter.id_read2	4	0
+Fmt2={W}42:id_parameter.id_read3	4	0
+Fmt3={W}42:safe_parameter	3	4
+Fmt4={W}42:safe_parameter.Plc_In_FIL	3	0
+Fmt5={W}42:safe_parameter.Plc_In_FSTP	4	0
+Fmt6={W}42:safe_parameter.Plc_In_RIL	3	0
+Fmt7={W}42:safe_parameter.Plc_In_RSTP	3	0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Setup0=0 1 0 500 2 0 4 0 0
+Title1=Power [mA]
+Setup1=0 1 0 500 2 0 4 1 0
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=1
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=testpoint1
+Setup0=1 1 -16777216 16777216 4 1 4 2 0
+Title1=testpoint2
+Setup1=1 1 0 1000100 4 1 4 2 0
+Title2=imeas_parameter.U
+Setup2=1 1 0 16777216 4 0 4 2 0
+Title3=cntcntcnt
+Setup3=1 1 0 65535 4 0 4 2 0
+Title4=ualpha_testpoint
+Setup4=1 1 -16777216 16777216 4 1 4 2 0
+Title5=iqfdb_testpoint
+Setup5=0 1 -16777216 16777216 4 1 4 2 0
+Title6=elecangle_testpoint
+Setup6=1 1 -16777216 16777216 4 1 4 2 0
+Title7=time_test
+Setup7=1 1 0 1000 4 0 4 2 0
+Title8=i
+Setup8=1 1 0 65535 2 0 2 1 0
+Title9=spdfdb_testpoint
+Setup9=1 1 -16777216 16777216 4 1 4 2 0
+Title10=pstfdb_testpoint
+Setup10=1 1 -4294967296 4294967296 4 1 4 2 0
+Title11=posfdb_testpoint
+Setup11=1 1 -16777216 16777216 4 1 4 2 0
+Title12=posref_testpoint
+Setup12=1 1 -16777216 16777216 4 1 4 2 0
+Title13=thetaraw_testpoint
+Setup13=1 1 -10 11000 4 1 4 2 0
+Title14=rctgvl_testpoint
+Setup14=1 1 -16777216 16777216 4 1 4 2 0
+Title15=rcspvl_testpoint
+Setup15=1 1 -16777216 16777216 4 1 4 2 0
+Title16=iqref_testpoint
+Setup16=1 1 -16777216 16777216 4 1 4 2 0
+Title17=spdout_testpoint
+Setup17=1 1 -16777216 16777216 4 1 4 2 0
+Title18=spdcnt_testpoint
+Setup18=1 1 -1 5 4 1 4 2 0
+Title19=spd_testpoint
+Setup19=1 1 -1677700 3355443 4 1 4 2 0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=4
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+[Disassemble mode]
+mode=1
+[Breakpoints2]
+Bp0=_ 0 "EMUL_DATA_LOG" "testpoint1" 0 0
+Count=1
+[Aliases]
+A0=_ "C:\cygwin\sandbox\DriverLib\build\DriverLib.test\IQmath\iar\IQNcosPU.S" ""
+A1=_ "C:\cygwin\sandbox\DriverLib\build\DriverLib.test\IQmath\iar\IQNdiv.S" ""
+A2=_ "C:\cygwin\sandbox\DriverLib\build\DriverLib.test\IQmath\iar\IQNmpy.S" ""
+A3=_ "C:\cygwin\sandbox\DriverLib\build\DriverLib.test\IQmath\iar\IQNsinPU.S" ""
+A4=_ "F:\PROJECTS\ing\1kw_new\program\mige_dev_07\Libraries\IQmath\src\curve.c" ""
+A5=_ "F:\PROJECTS\ing\1kw_new\program\mige_dev_07\Libraries\IQmath\src\nvic_conf.c" ""
+A6=_ "F:\PROJECTS\ing\1kw_new\program\mige_dev_07\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""
+A7=_ "F:\PROJECTS\ing\1kw_new\program\mige_dev_07\Project\Template\main.c" ""
+A8=_ "F:\PROJECTS\ing\1kw_new\program_misra\st_dev_04\Libraries\IQmath\src\curve.c" ""
+A9=_ "F:\PROJECTS\ing\1kw_new\program_misra\st_dev_04\Libraries\IQmath\src\nvic_conf.c" ""
+A10=_ "F:\PROJECTS\ing\1kw_new\program_misra\st_dev_04\Project\Template\main.c" ""
+A11=_ "F:\stm32\programs\svpwm_rev_5_0\Libraries\IQmath\src\fsmc_conf.c" ""
+A12=_ "F:\stm32\programs\svpwm_rev_5_0\Libraries\IQmath\src\rcc_conf.c" ""
+A13=_ "F:\stm32\programs\svpwm_rev_5_0\Project\Template\main.c" ""
+A14=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\adc.c" ""
+A15=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\clarke_park.c" ""
+A16=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\fsmc_conf.c" ""
+A17=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\pid.c" ""
+A18=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\rcc_conf.c" ""
+A19=_ "F:\stm32\svpwm_rev_4_0\Libraries\IQmath\src\speed.c" ""
+A20=_ "F:\stm32\svpwm_rev_4_0\Project\Template\main.c" ""
+A21=_ "F:\work\stm32\programs\xoxo_2_0\Libraries\IQmath\src\rcc_conf.c" ""
+A22=_ "F:\work\stm32\programs\xoxo_2_0\Libraries\IQmath\src\servo_init.c" ""
+A23=_ "F:\work\stm32\programs\xoxo_2_0\Libraries\IQmath\src\uart.c" ""
+A24=_ "F:\work\stm32\programs\xoxo_2_0\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" ""
+A25=_ "F:\work\stm32\programs\xoxo_2_0\Project\Template\main.c" ""
+A26=_ "H:\work\hzc\STM32\programs\pmsm\xoxo_2_6\Libraries\IQmath\src\svpwm.c" ""
+A27=_ "H:\work\hzc\STM32\programs\pmsm\xoxo_2_6\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" ""
+Count=28
+SuppressDialog=1
